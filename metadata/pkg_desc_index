@@ -7,7 +7,7 @@ games-action/trine-bin 1.08_p5: A physics-based action game where diff character
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-video/mpv 9999: Video player based on MPlayer/mplayer2
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
-sys-libs/db 4.8.30 4.8.30-r1 4.8.30-r2 6.0.30 6.0.30-r1 6.1.19: Oracle Berkeley DB
+sys-libs/db 4.8.30 4.8.30-r2 6.0.30 6.0.30-r1 6.1.19: Oracle Berkeley DB
 sys-libs/ntdb 1.0-r2: A not-so trivial keyword/data database system
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-themes/gtk-engines 2.20.2-r1: GTK+2 standard engines and themes
