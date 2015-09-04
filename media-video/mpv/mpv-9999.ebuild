@@ -21,8 +21,8 @@ LICENSE="GPL-2"
 SLOT="0"
 [[ ${PV} == *9999* ]] || \
 KEYWORDS="~alpha ~amd64 ~arm ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux"
-IUSE="+alsa bluray bs2b cdio -doc-pdf dvb +dvd dvdnav +enca encode +iconv jack 
-jpeg ladspa lcms +libass libcaca libguess libmpv lua luajit -openal +opengl
+IUSE="+alsa bluray cdio -doc-pdf dvb +dvd dvdnav +enca encode +iconv jack 
+jpeg lcms +libass libcaca libguess libmpv lua luajit -openal +opengl
 oss pulseaudio pvr samba sdl selinux +shm v4l vaapi vdpau
 vf-dlopen wayland +X xinerama +xscreensaver +xv"
 
@@ -62,7 +62,6 @@ RDEPEND+="
 	)
 	alsa? ( media-libs/alsa-lib )
 	bluray? ( >=media-libs/libbluray-0.3.0 )
-	bs2b? ( media-libs/libbs2b )
 	cdio? (
 		dev-libs/libcdio
 		dev-libs/libcdio-paranoia
@@ -76,7 +75,6 @@ RDEPEND+="
 	iconv? ( virtual/libiconv )
 	jack? ( media-sound/jack-audio-connection-kit )
 	jpeg? ( virtual/jpeg:0 )
-	ladspa? ( media-libs/ladspa-sdk )
 	libass? (
 		>=media-libs/libass-0.9.10:=[enca?,fontconfig]
 		virtual/ttf-fonts
@@ -176,8 +174,6 @@ src_configure() {
 		$(use_enable libcaca caca) \
 		$(use_enable alsa) \
 		$(use_enable jack) \
-		$(use_enable ladspa) \
-		$(use_enable bs2b libbs2b) \
 		$(use_enable openal) \
 		$(use_enable oss oss-audio) \
 		$(use_enable pulseaudio pulse) \
