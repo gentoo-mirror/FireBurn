@@ -5,6 +5,9 @@
 app-crypt/heimdal:hdb-ldap - Adds support for LDAP as a database backend
 app-crypt/heimdal:otp - Adds support for one-time passwords
 app-crypt/heimdal:pkinit - Adds support for PKINIT for the initial ticket
+media-libs/phonon:designer - Install plugin for dev-qt/designer
+media-libs/phonon:vlc - Install VLC Phonon backend
+media-libs/phonon:zeitgeist - Add support for Zeitgeist event tracking system
 media-video/mpv:bluray - Enable playback of Blu-ray filesystems
 media-video/mpv:bs2b - Enable Bauer stereophonic-to-binaural headphone filter
 media-video/mpv:cdio - Use libcdio for CD support (instead of cdparanoia)
