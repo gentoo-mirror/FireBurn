@@ -22,13 +22,4 @@ media-video/mpv:radio - Enable V4L2 radio interface and support
 media-video/mpv:shm - Enable support for shm
 media-video/mpv:vaapi - Enable VAAPI (Video Acceleration API) for hardware decoding
 media-video/mpv:vf-dlopen - Install additional video filters for using with -vf dlopen
-sys-devel/llvm:clang - Build the clang C/C++ compiler
-sys-devel/llvm:cmake - Enable cmake support (experimental)
-sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
-sys-devel/llvm:gold - Build the gold linker plugin
-sys-devel/llvm:lldb - Build the lldb debugger
-sys-devel/llvm:multitarget - Build all host targets (default: host only)
-sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
-sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
-sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
 sys-libs/db:rpc - Enable rpc client/server
