@@ -1,4 +1,3 @@
-app-emulation/wine 1.9.4: Free implementation of Windows(tm) on Unix
 dev-cpp/tbb 4.3.20141023: High level abstract threading library
 dev-libs/gobject-introspection 1.40.0-r1: Introspection infrastructure for generating gobject library bindings for various languages
 dev-python/pycurl 7.19.3.1: python binding for curl/libcurl
