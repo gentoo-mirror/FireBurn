@@ -5,4 +5,3 @@
 media-libs/phonon:designer - Install plugin for dev-qt/designer
 media-libs/phonon:vlc - Install VLC Phonon backend
 media-libs/phonon:zeitgeist - Add support for Zeitgeist event tracking system
-sys-libs/db:rpc - Enable rpc client/server
