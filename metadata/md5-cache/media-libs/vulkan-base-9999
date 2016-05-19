@@ -8,4 +8,4 @@ LICENSE=MIT
 SLOT=0
 _eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:- src_prepare:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	ef66dfc3db09f327af21cf32f140fb2b	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=c86d97ea7dcb89fa5f229627284ab611
+_md5_=5575074debea5d59a35869f9a8df2f21

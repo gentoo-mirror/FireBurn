@@ -3,7 +3,7 @@ dev-python/pycurl 7.19.3.1: python binding for curl/libcurl
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vulkan-base 9999: Official Vulkan headerfiles, loader, validation layers and sample binaries
-media-libs/vulkan-icd-loader 1.0.8.0: Vulkan Installable Client Driver (ICD) Loader
+media-libs/vulkan-icd-loader 1.0.11.0: Vulkan Installable Client Driver (ICD) Loader
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
 sys-fs/fuse 2.9.5: An interface for filesystems implemented in userspace
 sys-libs/ntdb 1.0-r2: A not-so trivial keyword/data database system
