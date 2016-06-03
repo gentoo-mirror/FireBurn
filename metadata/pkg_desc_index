@@ -1,4 +1,3 @@
-dev-cpp/tbb 4.3.20141023: High level abstract threading library
 dev-python/pycurl 7.19.3.1: python binding for curl/libcurl
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
