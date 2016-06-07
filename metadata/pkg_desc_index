@@ -2,5 +2,6 @@ dev-python/pycurl 7.19.3.1: python binding for curl/libcurl
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
+sys-devel/llvm 9999: Low Level Virtual Machine
 sys-libs/ntdb 1.0-r2: A not-so trivial keyword/data database system
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
