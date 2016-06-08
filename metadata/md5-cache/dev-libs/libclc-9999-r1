@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure setup unpack
+DEPEND=>=sys-devel/clang-3.9 >=sys-devel/llvm-3.9 || ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=OpenCL C library
+EAPI=5
+HOMEPAGE=http://libclc.llvm.org/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=|| ( MIT BSD )
+RDEPEND=>=sys-devel/clang-3.9 >=sys-devel/llvm-3.9
+SLOT=0
+_eclass_exported_funcs=pkg_setup:python-any-r1 src_unpack:- src_configure:- src_compile:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	python-any-r1	8eb13cdf35f6e43c48107b911900b2cc	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=b7815cc2fb5085ea804208a78074ab46
