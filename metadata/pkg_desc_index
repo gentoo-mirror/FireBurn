@@ -1,10 +1,24 @@
+app-accessibility/speech-dispatcher 0.8.3: Speech synthesis interface
+app-crypt/efitools 1.5.3: Tools for manipulating UEFI secure boot platforms
+dev-lang/perl 5.24.0-r1: Larry Wall's Practical Extraction and Report Language
 dev-libs/libclc 9999-r1: OpenCL C library
+dev-libs/libpwquality 1.3.0: Library for password quality checking and generating random passwords
+dev-python/backports 1.0: Namespace for backported Python features
+dev-python/backports-ssl-match-hostname 3.5.0.1-r1: Backport of the ssl.match_hostname function
 dev-python/pycurl 7.19.3.1: python binding for curl/libcurl
+dev-util/apitrace 7.1: A tool for tracing, analyzing, and debugging graphics APIs
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
+kde-frameworks/ki18n 5.22.1: Framework based on Gettext for internationalizing user interface text
+kde-plasma/libksysguard 5.5.5: Task management and system monitoring library
 media-libs/mesa 12.0.1 9999: OpenGL-like graphic library for Linux
 media-libs/vulkan-base 9999: Official Vulkan headerfiles, loader, validation layers and sample binaries
+media-video/mpv 9999: Media player based on MPlayer and mplayer2
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
+net-libs/webkit-gtk 2.4.11 2.4.11-r200: Open source web browser engine
+sys-apps/kmod 22: library and tools for managing linux kernel modules
 sys-devel/gcc 6.2.0: The GNU Compiler Collection
 sys-devel/llvm 9999: Low Level Virtual Machine
 sys-libs/ntdb 1.0-r2: A not-so trivial keyword/data database system
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
+x11-base/xorg-server 9999: X.Org X servers
+x11-libs/gtk+ 3.20.8: Gimp ToolKit +

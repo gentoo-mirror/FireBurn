@@ -2,6 +2,14 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
+app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
+dev-lang/perl:ithreads - Enable Perl threads, has some compatibility problems
+dev-util/apitrace:cli - Enable command line interface
+dev-util/apitrace:egl - Enable EGL support
+dev-util/apitrace:system-snappy - Link dynamic against app-arch/snappy
+kde-plasma/libksysguard:detailedmemory - Enable display of detailed memory information using dev-qt/qtwebkit.
+kde-plasma/libksysguard:processui - Enables the Interface to view process libs.
 media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
 media-libs/mesa:classic - Build drivers based on the classic architecture.
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
@@ -23,6 +31,37 @@ media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
+media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
+media-video/mpv:bluray - Enable playback of Blu-ray filesystems
+media-video/mpv:bs2b - Enable Bauer stereophonic-to-binaural headphone filter
+media-video/mpv:cdio - Enable CDDA support via dev-libs/libcdio-paranoia
+media-video/mpv:cli - Build mpv CLI player
+media-video/mpv:doc-pdf - Build documentation in pdf format
+media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video output
+media-video/mpv:egl - Enable support for various EGL-based video outputs
+media-video/mpv:enca - Enable subtitles charset discovery via app-i18n/enca
+media-video/mpv:gbm - Enable Graphics Buffer Manager based EGL video output
+media-video/mpv:jpeg - Enable support for saving screenshots in JPEG format
+media-video/mpv:libass - Enable OSD (On Screen Display) and subtitles support via media-libs/libass
+media-video/mpv:libguess - Enable subtitles charset discovery via app-i18n/libguess
+media-video/mpv:libmpv - Build mpv shared library
+media-video/mpv:lua - Enable Lua scripting, OSC (On Screen Controller) GUI and net-misc/youtube-dl hook-script
+media-video/mpv:luajit - Use dev-lang/luajit instead of dev-lang/lua
+media-video/mpv:pvr - Enable Video4Linux2 MPEG PVR
+media-video/mpv:raspberry-pi - Enable support for the Raspberry Pi
+media-video/mpv:rubberband - Enable high quality pitch correction via media-libs/rubberband
+media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (Note: these outputs exist for compatibility reasons only, avoid if possible)
+media-video/mpv:uchardet - Enable subtitles charset discovery via dev-libs/uchardet
+media-video/mpv:vf-dlopen - Install additional video filters to be used with -vf dlopen
+net-libs/webkit-gtk:coverage - Enable code coverage support
+net-libs/webkit-gtk:egl - Enable EGL support.
+net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
+net-libs/webkit-gtk:libsecret - Enable libsecret support to store login credentials
+net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
+sys-apps/kmod:lzma - Enable support for XZ compressed modules
+sys-apps/kmod:tools - Install module loading/unloading tools.
+sys-apps/kmod:zlib - Enable support for gzipped modules
 sys-devel/gcc:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
 sys-devel/gcc:cilk - Support the Cilk Plus language (C/C++ based languages for parallel programming)
 sys-devel/gcc:d - Enable support for the D programming language
@@ -49,3 +88,14 @@ sys-devel/llvm:multitarget - Build all host targets (default: host only)
 sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
 sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
 sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
+x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
+x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
+x11-base/xorg-server:kdrive - Build the kdrive X servers
+x11-base/xorg-server:tslib - Build with tslib support for touchscreen devices
+x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
+x11-base/xorg-server:xnest - Build the Xnest server
+x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
+x11-base/xorg-server:xvfb - Build the Xvfb server
+x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
+x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
+x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
