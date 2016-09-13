@@ -4,6 +4,7 @@
 
 app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
 app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
+app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled kernels
 dev-lang/perl:ithreads - Enable Perl threads, has some compatibility problems
 dev-util/apitrace:cli - Enable command line interface
 dev-util/apitrace:egl - Enable EGL support
