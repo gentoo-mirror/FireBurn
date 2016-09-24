@@ -13,7 +13,6 @@ media-libs/vulkan-base 9999: Official Vulkan headerfiles, loader, validation lay
 media-video/mpv 9999: Media player based on MPlayer and mplayer2
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
 net-libs/webkit-gtk 2.4.11 2.4.11-r200: Open source web browser engine
-sys-devel/llvm 9999: Low Level Virtual Machine
 sys-libs/ntdb 1.0-r2: A not-so trivial keyword/data database system
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-base/xorg-drivers 9999-r1: Meta package containing deps on all xorg drivers

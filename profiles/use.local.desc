@@ -57,15 +57,6 @@ net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
 net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
 net-libs/webkit-gtk:libsecret - Enable libsecret support to store login credentials
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
-sys-devel/llvm:clang - Build the clang C/C++ compiler
-sys-devel/llvm:cmake - Enable cmake support (experimental)
-sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
-sys-devel/llvm:gold - Build the gold linker plugin
-sys-devel/llvm:lldb - Build the lldb debugger
-sys-devel/llvm:multitarget - Build all host targets (default: host only)
-sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
-sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
-sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
 x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
 x11-base/xorg-server:kdrive - Build the kdrive X servers
