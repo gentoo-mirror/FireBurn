@@ -4,6 +4,7 @@
 
 EAPI=6
 
+inherit eutils systemd user
 MY_PN=${PN/-bin/}
 MY_PV="${PV/_/-}"
 MY_P=${MY_PN}-${MY_PV}
@@ -18,6 +19,12 @@ SLOT="0"
 KEYWORDS=""
 
 QA_PREBUILT="usr/bin/filebeat"
+
+pkg_setup() {
+        enewgroup ${MY_PN}
+        enewuser ${MY_PN} -1 /bin/bash /var/lib/${MY_PN} ${MY_PN}
+        esethome ${MY_PN} /var/lib/${MY_PN}
+}
 
 src_unpack() {
 	if use amd64; then
@@ -37,6 +44,7 @@ src_install() {
 
 	newconfd "${FILESDIR}/${MY_PN}.confd" ${MY_PN}
 	newinitd "${FILESDIR}/${MY_PN}.initd" ${MY_PN}
+	systemd_newunit "${FILESDIR}"/${MY_PN}.service "${MY_PN}.service"
 
 	insinto /etc/${MY_PN}
 	newins ${MY_PN}.yml ${MY_PN}.yml.example
