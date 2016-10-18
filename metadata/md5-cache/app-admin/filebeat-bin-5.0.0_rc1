@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Lightweight log shipper for Logstash and Elasticsearch
+EAPI=6
+HOMEPAGE=https://www.elastic.co/products/beats
+LICENSE=Apache-2.0
+SLOT=0
+SRC_URI=amd64? ( https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-5.0.0-rc1-linux-x86_64.tar.gz ) x86? ( https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-5.0.0-rc1-linux-x86.tar.gz )
+_eclass_exported_funcs=pkg_postinst:- src_unpack:- src_install:-
+_md5_=4229f922d70198be8f5e74fb6b2d9212
