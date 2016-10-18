@@ -4,6 +4,7 @@
 
 app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
 app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
+app-admin/logstash-bin:all-plugins - contains the standard distribution package plus all plugins
 app-admin/webapp-config:portage - Propagete python_targets dependencies to sys-apps/portage
 dev-lang/perl:ithreads - Enable Perl threads, has some compatibility problems
 dev-util/apitrace:cli - Enable command line interface

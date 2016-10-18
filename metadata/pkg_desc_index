@@ -1,5 +1,6 @@
 app-accessibility/speech-dispatcher 0.8.3: Speech synthesis interface
 app-admin/filebeat-bin 5.0.0_rc1: Lightweight log shipper for Logstash and Elasticsearch
+app-admin/logstash-bin 5.0.0_rc1: Tool for managing events and logs
 app-admin/webapp-config 1.54-r3: Gentoo's installer for web-based applications
 app-emulation/virtualbox-guest-additions 5.1.6: VirtualBox kernel modules and user-space tools for Gentoo guests
 dev-lang/perl 5.24.0-r1: Larry Wall's Practical Extraction and Report Language
