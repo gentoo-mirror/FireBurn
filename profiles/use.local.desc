@@ -24,3 +24,23 @@ media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
+sys-apps/systemd:apparmor - Enable AppArmor support
+sys-apps/systemd:audit - Enable support for sys-process/audit
+sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
+sys-apps/systemd:curl - Enable support for uploading journals; required to build systemd-import/systemd-pull
+sys-apps/systemd:doc - Generate systemd.index.7 and systemd.directives.7
+sys-apps/systemd:elfutils - Enable coredump stacktraces in the journal
+sys-apps/systemd:gcrypt - Enable sealing of journal files using gcrypt; required to build systemd-import/systemd-pull
+sys-apps/systemd:gnuefi - Enable EFI boot manager and stub loader (built using sys-boot/gnu-efi)
+sys-apps/systemd:gudev - enable libudev gobject interface
+sys-apps/systemd:http - Enable embedded HTTP server in journald
+sys-apps/systemd:importd - Enable import daemon
+sys-apps/systemd:kdbus - Connect to kernel dbus (KDBUS) instead of userspace dbus if available
+sys-apps/systemd:kmod - Enable kernel module loading via sys-apps/kmod
+sys-apps/systemd:lz4 - Enable lz4 compression for the journal
+sys-apps/systemd:nat - Enable support for network address translation in networkd
+sys-apps/systemd:qrcode - Enable qrcode output support in journal
+sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
+sys-apps/systemd:terminal - Enable experimental userspace virtual terminal support
+sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
+sys-apps/systemd:xkb - Validate XKB keymap in logind
