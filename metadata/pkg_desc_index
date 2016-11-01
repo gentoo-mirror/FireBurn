@@ -5,7 +5,7 @@ dev-libs/libclc 9999-r1: OpenCL C library
 dev-libs/libpwquality 1.3.0: Library for password quality checking and generating random passwords
 dev-util/ragel 6.9: Compiles finite state machines from regular languages into executable code
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
-media-libs/mesa 12.0.3 13.0.0_rc2 9999: OpenGL-like graphic library for Linux
+media-libs/mesa 12.0.3 13.0.0_rc3 9999: OpenGL-like graphic library for Linux
 media-libs/vulkan-base 9999: Official Vulkan headerfiles, loader, validation layers and sample binaries
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
 sys-apps/systemd 9999: System and service manager for Linux
