@@ -9,3 +9,4 @@ media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vulkan-base 9999: Official Vulkan headerfiles, loader, validation layers and sample binaries
 media-video/transmageddon 1.5: Simple python application for transcoding video into formats supported by GStreamer.
 www-apps/kibana-bin 5.0.0: Explore and visualize data
+x11-drivers/xf86-video-vmware 13.2.1: VMware SVGA video driver
