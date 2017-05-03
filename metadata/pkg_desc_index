@@ -10,5 +10,5 @@ media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-libs/vulkan-loader 9999: Official Vulkan headerfiles, loader, validation layers and sample binaries
 sys-devel/gcc 7.1.0: The GNU Compiler Collection
 www-apps/kibana-bin 5.0.0: Explore and visualize data
-www-client/chromium 58.0.3029.81 59.0.3067.0 59.0.3071.29 60.0.3080.5: Open-source version of Google Chrome web browser
+www-client/chromium 60.0.3080.5: Open-source version of Google Chrome web browser
 x11-drivers/xf86-video-vmware 13.2.1: VMware SVGA video driver
