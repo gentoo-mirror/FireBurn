@@ -17,4 +17,4 @@ sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
 www-apps/kibana-bin 5.0.0: Explore and visualize data
 www-client/chromium 60.0.3095.5: Open-source version of Google Chrome web browser
 x11-drivers/xf86-video-vmware 13.2.1: VMware SVGA video driver
-x11-libs/libdrm 2.4.81: X.Org libdrm library
+x11-libs/libdrm 2.4.82: X.Org libdrm library
