@@ -1,6 +1,6 @@
 app-admin/filebeat-bin 5.0.0: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/logstash-bin 5.0.0: Tool for managing events and logs
-app-emulation/wine 2.12: Free implementation of Windows(tm) on Unix
+app-emulation/wine 2.13: Free implementation of Windows(tm) on Unix
 app-misc/elasticsearch 5.0.0: Open Source, Distributed, RESTful, Search Engine
 app-portage/gentoolkit 0.4.0: Collection of administration scripts for Gentoo
 dev-libs/gobject-introspection 1.50.0: Introspection system for GObject-based libraries
