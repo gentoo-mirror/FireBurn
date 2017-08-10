@@ -1,6 +1,6 @@
 app-admin/filebeat-bin 5.0.0: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/logstash-bin 5.0.0: Tool for managing events and logs
-app-emulation/wine 2.13: Free implementation of Windows(tm) on Unix
+app-emulation/wine 2.14: Free implementation of Windows(tm) on Unix
 app-misc/elasticsearch 5.0.0: Open Source, Distributed, RESTful, Search Engine
 app-portage/gentoolkit 0.4.0: Collection of administration scripts for Gentoo
 dev-libs/gobject-introspection 1.50.0: Introspection system for GObject-based libraries
@@ -13,7 +13,6 @@ media-gfx/fontforge 20161005: postscript font editor and converter
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-libs/vulkan-loader 1.0.54.0 9999: Vulkan Installable Client Driver (ICD) Loader
 media-video/mpv 0.25.0: Media player based on MPlayer and mplayer2
-sys-devel/clang-runtime 9999: Meta-ebuild for clang runtime libraries
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
 www-apps/kibana-bin 5.0.0: Explore and visualize data
 www-client/chromium 60.0.3095.5: Open-source version of Google Chrome web browser
