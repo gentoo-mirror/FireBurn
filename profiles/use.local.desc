@@ -50,5 +50,15 @@ media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (N
 media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and umpv
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
 media-video/mpv:vf-dlopen - Install additional video filters to be used with -vf dlopen
+www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
+www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
+www-client/chromium:proprietary-codecs - Enable proprietary codecs like H.264, MP3
+www-client/chromium:suid - Build the SUID sandbox, which is only needed on CONFIG_USER_NS=n kernels
+www-client/chromium:system-ffmpeg - Use system ffmpeg instead of the bundled one
+www-client/chromium:system-icu - Use system icu instead of the bundled one
+www-client/chromium:system-libvpx - Use system libvpx instead of the bundled one
+www-client/chromium:tcmalloc - Use bundled tcmalloc instead of system malloc
+www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
 x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
