@@ -1,5 +1,5 @@
 app-admin/ansible 2.4.0.0: Model-driven deployment, config management, and command execution framework
-app-emulation/wine 2.16: Free implementation of Windows(tm) on Unix
+app-emulation/wine 2.17: Free implementation of Windows(tm) on Unix
 app-portage/gentoolkit 0.4.0: Collection of administration scripts for Gentoo
 dev-libs/gobject-introspection 1.50.0: Introspection system for GObject-based libraries
 dev-libs/libclc 9999-r1: OpenCL C library
