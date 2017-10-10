@@ -6,7 +6,6 @@ dev-libs/libclc 9999-r1: OpenCL C library
 dev-libs/libnl 3.3.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-util/gdbus-codegen 2.50.3: GDBus code and documentation generator
 dev-util/ragel 6.9: Compiles finite state machines from regular languages into executable code
-dev-vcs/cvs-fast-export 1.43: fast-export history from a CVS repository or RCS collection
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-gfx/fontforge 20170731: postscript font editor and converter
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
