@@ -14,7 +14,7 @@ media-video/mpv 0.25.0: Media player based on MPlayer and mplayer2
 sys-devel/gdb 8.0.1: GNU debugger
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
 www-apps/kibana-bin 5.0.0: Explore and visualize data
-www-client/chromium 63.0.3223.8: Open-source version of Google Chrome web browser
+www-client/chromium 63.0.3230.0: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-drivers/xf86-video-vmware 13.2.1: VMware SVGA video driver
 x11-libs/libdrm 2.4.82: X.Org libdrm library
