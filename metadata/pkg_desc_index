@@ -12,6 +12,7 @@ media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-libs/vulkan-loader 1.0.61.1 9999: Vulkan Installable Client Driver (ICD) Loader
 media-video/mpv 0.25.0: Media player based on MPlayer and mplayer2
 sys-devel/gdb 8.0.1: GNU debugger
+sys-libs/libomp 9999: OpenMP runtime library for LLVM/clang compiler
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
 www-apps/kibana-bin 5.0.0: Explore and visualize data
 www-client/chromium 63.0.3230.0: Open-source version of Google Chrome web browser
