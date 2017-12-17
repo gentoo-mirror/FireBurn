@@ -2,33 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-emulation/wine-any:capi - Enable ISDN support via CAPI
-app-emulation/wine-any:custom-cflags - Bypass strip-flags; use at your own peril
-app-emulation/wine-any:d3d9 - Apply highly experimental patches for Gallium Nine support. This patch may break some applications.
-app-emulation/wine-any:dos - Pull in games-emulation/dosbox to run DOS applications
-app-emulation/wine-any:gecko - Add support for the Gecko engine when using iexplore
-app-emulation/wine-any:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
-app-emulation/wine-any:mono - Add support for .NET using Wine's Mono add-on
-app-emulation/wine-any:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
-app-emulation/wine-any:opencl - Enable OpenCL support
-app-emulation/wine-any:osmesa - Add support for OpenGL in bitmaps using libOSMesa
-app-emulation/wine-any:pcap - Support packet capture software (e.g. wireshark)
-app-emulation/wine-any:perl - Install helpers written in perl (winedump/winemaker)
-app-emulation/wine-any:pipelight - Apply Wine-Staging patches for Pipelight/Silverlight support
-app-emulation/wine-any:prelink - Run prelink on DLLs during build; For versions before wine-1.7.55 or hardened, do not disable if you do not know what this means as it can break things at runtime
-app-emulation/wine-any:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
-app-emulation/wine-any:run-exes - Use Wine to open and run .EXE and .MSI files
-app-emulation/wine-any:s3tc - Pull in media-libs/libtxc_dxtn for DXTn texture compression, needed for many games
-app-emulation/wine-any:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
-app-emulation/wine-any:staging - Apply Wine-Staging patches for advanced feature support that haven't made it into upstream Wine yet
-app-emulation/wine-any:themes - Support GTK+:3 window theming through Wine-Staging
-app-emulation/wine-any:udev - Use virtual/libudev to provide plug and play support
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
-sys-devel/gdb:client - Install the main "gdb" program (most people want this)
-sys-devel/gdb:lzma - Support lzma compression in ELF debug info
-sys-devel/gdb:multitarget - Support all known targets in one gdb binary
-sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
-sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
-sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
-sys-libs/libomp:hwloc - Enable CPU affinity support via hwloc
-sys-libs/libomp:ompt - Enable OpenMP Tools Interface support

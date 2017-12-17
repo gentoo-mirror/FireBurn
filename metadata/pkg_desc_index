@@ -1,10 +1,2 @@
-app-emulation/wine-any 2.21: Free implementation of Windows(tm) on Unix, with optional external patchsets
-dev-libs/libclc 9999-r1: OpenCL C library
-games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-gfx/fontforge 20170731-r2: postscript font editor and converter
-media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
-media-libs/vulkan-loader 1.0.61.1 9999: Vulkan Installable Client Driver (ICD) Loader
-sys-devel/gdb 8.0.1: GNU debugger
-sys-libs/libomp 9999: OpenMP runtime library for LLVM/clang compiler
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
-x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
