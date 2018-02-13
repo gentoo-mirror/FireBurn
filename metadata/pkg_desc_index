@@ -1,2 +1,3 @@
 media-gfx/fontforge 20170731-r3: postscript font editor and converter
+media-sound/pulseaudio 11.1: A networked sound server with an advanced plugin system
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
