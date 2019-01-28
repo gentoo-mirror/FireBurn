@@ -2,3 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-libs/libnl:doc - Install development documentation
+dev-libs/libnl:python - Install experimental dev-lang/python bindings
+dev-libs/libnl:utils - Install command line interface utils
+dev-libs/liborcus:spreadsheet-model - Enable the spreadsheet model implementation
+dev-libs/liborcus:tools - Build various low-level parsers
+media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
