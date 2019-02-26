@@ -4,5 +4,6 @@ dev-libs/liborcus 0.13.4: Standalone file import filter library for spreadsheet 
 dev-libs/libpwquality 1.4.0: Library for password quality checking and generating random passwords
 dev-libs/newt 0.52.20: Redhat's Newt windowing toolkit development files
 media-gfx/fontforge 20170731-r4: postscript font editor and converter
+media-libs/vulkan-layers 1.1.92.0-r1: Vulkan Validation Layers
 sys-libs/cracklib 2.9.6-r1: Password Checking Library
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
