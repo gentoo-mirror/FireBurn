@@ -1,8 +1,5 @@
-dev-libs/libixion 0.13.0: General purpose formula parser & interpreter
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
-dev-libs/liborcus 0.13.4: Standalone file import filter library for spreadsheet documents
 dev-libs/libpwquality 1.4.0: Library for password quality checking and generating random passwords
-dev-libs/newt 0.52.20: Redhat's Newt windowing toolkit development files
 media-gfx/fontforge 20170731-r4: postscript font editor and converter
 sys-libs/cracklib 2.9.6-r1: Password Checking Library
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
