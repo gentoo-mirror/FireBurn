@@ -5,4 +5,3 @@
 dev-libs/libnl:doc - Install development documentation
 dev-libs/libnl:python - Install experimental dev-lang/python bindings
 dev-libs/libnl:utils - Install command line interface utils
-media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
