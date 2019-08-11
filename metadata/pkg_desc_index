@@ -1,3 +1,11 @@
+app-admin/gamemode 1.2: Optimise Linux system performance on demand
+app-emulation/dxvk 1.3.2 9999: A Vulkan-based translation layer for Direct3D 10/11
+dev-java/javatoolkit 0.6.0: Collection of Gentoo-specific tools for Java
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/libpwquality 1.4.0: Library for password quality checking and generating random passwords
+games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
+media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
+www-client/chromium 76.0.3809.87: Open-source version of Google Chrome web browser
+x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
+x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
