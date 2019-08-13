@@ -6,6 +6,6 @@ dev-libs/libpwquality 1.4.0: Library for password quality checking and generatin
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
-www-client/chromium 77.0.3865.10: Open-source version of Google Chrome web browser
+www-client/chromium 78.0.3876.0: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
