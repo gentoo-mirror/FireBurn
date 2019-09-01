@@ -5,12 +5,13 @@ dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux k
 dev-libs/libpwquality 1.4.0: Library for password quality checking and generating random passwords
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
 dev-util/apitrace 8.0: Tool for tracing, analyzing, and debugging graphics APIs
+dev-util/vulkan-tools 1.1.106-r1 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 net-wireless/crda 3.18-r3: Central Regulatory Domain Agent for wireless networks
 net-wireless/wpa_supplicant 2.9 9999: IEEE 802.1X/WPA supplicant for secure wireless transfers
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
-www-client/chromium 78.0.3887.7: Open-source version of Google Chrome web browser
+www-client/chromium 78.0.3895.5: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-misc/vdpauinfo 1.0: Displays info about your card's VDPAU support
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements

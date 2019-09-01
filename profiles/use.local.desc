@@ -8,6 +8,8 @@ dev-libs/libnl:utils - Install command line interface utils
 dev-util/apitrace:cli - Enable command line interface
 dev-util/apitrace:egl - Enable EGL support
 dev-util/apitrace:system-snappy - Link dynamic against app-arch/snappy
+dev-util/vulkan-tools:cube - Build the cube/cubepp demos
+dev-util/vulkan-tools:vulkaninfo - Build the vulkaninfo utility
 net-wireless/crda:gcrypt - Use libgcrypt instead of openssl for key checking
 net-wireless/wpa_supplicant:ap - Add support for access point mode
 net-wireless/wpa_supplicant:eap-sim - Add support for EAP-SIM authentication algorithm
