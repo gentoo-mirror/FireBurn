@@ -2,6 +2,13 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-java/openjdk:gentoo-vm - Allow this JDK to be recognised by Gentoo (package manager, eselect, java-config, EXPERIMENTAL!)
+dev-java/openjdk:headless-awt - Don't install the X backend for AWT, needed by some GUIs
+dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/openjfx
+dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
+dev-java/openjdk:source - Install JVM sources
+dev-java/openjdk:systemtap - Enable SystemTAP/DTrace tracing
+dev-java/openjdk:webstart - Provide javaws command through symlink to icedtea-web
 dev-libs/libnl:doc - Install development documentation
 dev-libs/libnl:python - Install experimental dev-lang/python bindings
 dev-libs/libnl:utils - Install command line interface utils
