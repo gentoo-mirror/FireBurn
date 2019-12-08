@@ -4,6 +4,7 @@ dev-java/javatoolkit 0.6.0: Collection of Gentoo-specific tools for Java
 dev-java/openjdk 8.232_p09 11.0.5_p10: Open source implementation of the Java programming language
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/libpwquality 1.4.0: Library for password quality checking and generating random passwords
+dev-libs/newt 0.52.21: Redhat's Newt windowing toolkit development files
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
 dev-python/python-etcd 0.4.5-r1: A python client for etcd
 dev-util/apitrace 8.0: Tool for tracing, analyzing, and debugging graphics APIs
