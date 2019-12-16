@@ -34,6 +34,10 @@ net-wireless/wpa_supplicant:tdls - Add support for Tunneled Direct Link Setup (8
 net-wireless/wpa_supplicant:uncommon-eap-types - Add support for GPSK, SAKE, GPSK_SHA256, IKEV2 and EKE
 net-wireless/wpa_supplicant:wimax - Add support for Wimax EAP-PEER authentication algorithm
 net-wireless/wpa_supplicant:wps - Add support for Wi-Fi Protected Setup
+sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
+sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
+sys-devel/clang:static-analyzer - Install the Clang static analyzer
+sys-devel/clang:z3 - Enable the static analyzer constraint manager backend using sci-mathematics/z3
 www-client/chromium:closure-compile - Enable closure type-checking for Chrome's web technology-based UI. Requires Java.
 www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
