@@ -15,7 +15,7 @@ net-wireless/crda 3.18-r3: Central Regulatory Domain Agent for wireless networks
 net-wireless/wpa_supplicant 2.9-r1 9999: IEEE 802.1X/WPA supplicant for secure wireless transfers
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
-www-client/chromium 81.0.4040.5: Open-source version of Google Chrome web browser
+www-client/chromium 81.0.4033.2: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-misc/vdpauinfo 1.0: Displays info about your card's VDPAU support
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
