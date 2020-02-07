@@ -1,7 +1,6 @@
 app-admin/gamemode 1.2: Optimise Linux system performance on demand
-app-emulation/dxvk 1.5.3 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.5.4 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-java/javatoolkit 0.6.0: Collection of Gentoo-specific tools for Java
-dev-java/openjdk 8.242_p08 11.0.6_p10: Open source implementation of the Java programming language
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/libpwquality 1.4.0: Library for password quality checking and generating random passwords
 dev-libs/newt 0.52.21: Redhat's Newt windowing toolkit development files
