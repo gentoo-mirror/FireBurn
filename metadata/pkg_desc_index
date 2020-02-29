@@ -10,6 +10,7 @@ dev-util/apitrace 8.0: Tool for tracing, analyzing, and debugging graphics APIs
 dev-util/vulkan-tools 1.1.106-r1 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
+media-video/smplayer 9999: Great Qt GUI front-end for mplayer/mpv
 net-wireless/crda 3.18-r3: Central Regulatory Domain Agent for wireless networks
 net-wireless/wpa_supplicant 2.9-r1 9999: IEEE 802.1X/WPA supplicant for secure wireless transfers
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
