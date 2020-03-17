@@ -4,9 +4,13 @@ app-emulation/dxvk 1.5.5 9999: A Vulkan-based translation layer for Direct3D 10/
 dev-java/java-config 2.2.0-r4: Java environment configuration query tool
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
 dev-python/ipykernel 5.1.4: IPython Kernel for Jupyter
+dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
 dev-python/ipython 7.5.0: Advanced interactive shell for Python
+dev-python/jupyter_client 5.3.4: Jupyter protocol implementation and client libraries
+dev-python/jupyter_core 4.6.1: Core common functionality of Jupyter projects
 dev-python/netaddr 0.7.19: Network address representation and manipulation library
 dev-python/python-etcd 0.4.5-r1: A python client for etcd
+dev-python/pyzmq 17.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/qtconsole 4.6.0: Qt-based console for Jupyter with support for rich media output
 dev-python/traitlets 4.3.2: A configuration system for Python applications
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
