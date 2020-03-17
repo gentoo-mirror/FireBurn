@@ -1,11 +1,20 @@
+app-admin/ansible 2.9.6: Model-driven deployment, config management, and command execution framework
 app-admin/gamemode 1.2: Optimise Linux system performance on demand
 app-emulation/dxvk 1.5.5 9999: A Vulkan-based translation layer for Direct3D 10/11
+dev-java/java-config 2.2.0-r4: Java environment configuration query tool
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
+dev-python/ipykernel 5.1.4: IPython Kernel for Jupyter
+dev-python/ipython 7.5.0: Advanced interactive shell for Python
+dev-python/netaddr 0.7.19: Network address representation and manipulation library
 dev-python/python-etcd 0.4.5-r1: A python client for etcd
+dev-python/qtconsole 4.6.0: Qt-based console for Jupyter with support for rich media output
+dev-python/traitlets 4.3.2: A configuration system for Python applications
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-video/smplayer 9999: Great Qt GUI front-end for mplayer/mpv
+net-libs/libaccounts-glib 1.24-r1: Accounts SSO (Single Sign-On) management library for GLib applications
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
+sys-libs/libblockdev 2.23: A library for manipulating block devices
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
 www-client/chromium 82.0.4083.0: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
