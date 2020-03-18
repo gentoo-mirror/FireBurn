@@ -8,6 +8,7 @@ dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
 dev-python/ipython 7.5.0: Advanced interactive shell for Python
 dev-python/jupyter_client 5.3.4: Jupyter protocol implementation and client libraries
 dev-python/jupyter_core 4.6.1: Core common functionality of Jupyter projects
+dev-python/markupsafe 0.23 1.0 1.1.1: Implements a XML/HTML/XHTML Markup safe string for Python
 dev-python/netaddr 0.7.19: Network address representation and manipulation library
 dev-python/python-etcd 0.4.5-r1: A python client for etcd
 dev-python/pyzmq 17.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
