@@ -2,10 +2,33 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-crypt/gpgme:common-lisp - Install common-lisp files
+dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
+dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
+dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
+dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
+dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
+dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
+dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
 dev-python/netaddr:cli - Enable netaddr shell with dev-python/ipython
+dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
+dev-vcs/git:cgi - Install gitweb too
+dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
+dev-vcs/git:gpg - Pull in gnupg for signing -- without gnupg, attempts at signing will fail at runtime!
+dev-vcs/git:highlight - GitWeb support for app-text/highlight
+dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
+dev-vcs/git:mediawiki-experimental - Add experimental patches for improved MediaWiki support
+dev-vcs/git:pcre-jit - Enable JIT for pcre
+dev-vcs/git:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
+dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
+dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
+dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
+dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
+media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
+media-libs/alsa-lib:thread-safety - thread-safe API functions
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
 sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
