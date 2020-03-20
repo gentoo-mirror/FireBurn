@@ -1,7 +1,7 @@
 app-admin/ansible 2.9.6: Model-driven deployment, config management, and command execution framework
 app-admin/gamemode 1.2: Optimise Linux system performance on demand
 app-crypt/gpgme 1.13.1: GnuPG Made Easy is a library for making GnuPG easier to use
-app-emulation/dxvk 1.5.5 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.6 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-java/java-config 2.2.0-r4: Java environment configuration query tool
 dev-libs/boost 1.72.0-r1: Boost Libraries for C++
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
@@ -29,6 +29,6 @@ sys-apps/usbutils 012: USB enumeration utilities
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
 sys-devel/gdb 9.1: GNU debugger
 sys-libs/libblockdev 2.23: A library for manipulating block devices
-www-client/chromium 82.0.4083.0: Open-source version of Google Chrome web browser
+www-client/chromium 81.0.4044.69: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
