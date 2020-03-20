@@ -27,6 +27,7 @@ dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PP
 dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
 dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
 dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
+media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
 media-libs/alsa-lib:thread-safety - thread-safe API functions
 media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
