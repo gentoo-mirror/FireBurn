@@ -21,9 +21,11 @@ dev-vcs/git 2.25.2: stupid content tracker: distributed VCS designed for speed a
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/alsa-lib 1.2.2: Advanced Linux Sound Architecture Library
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
+media-video/mpv 0.31.0-r1 0.32.0-r1 9999: Media player based on MPlayer and mplayer2
 media-video/smplayer 9999: Great Qt GUI front-end for mplayer/mpv
 net-libs/libaccounts-glib 1.24-r1: Accounts SSO (Single Sign-On) management library for GLib applications
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
+sys-devel/gdb 9.1: GNU debugger
 sys-libs/libblockdev 2.23: A library for manipulating block devices
 sys-process/iotop 0.6: Top-like UI used to show which process is using the I/O
 www-client/chromium 82.0.4083.0: Open-source version of Google Chrome web browser

@@ -29,12 +29,41 @@ dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
 dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
 media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
 media-libs/alsa-lib:thread-safety - thread-safe API functions
+media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
+media-video/mpv:bluray - Enable playback of Blu-ray filesystems
+media-video/mpv:cli - Build mpv CLI player
+media-video/mpv:cplugins - Enable C plugins support
+media-video/mpv:cuda - Enable hardware video decoding via Nvidia CUDA
+media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video output
+media-video/mpv:egl - Enable support for various EGL-based video outputs / backends
+media-video/mpv:gamepad - Enable gamepad input support
+media-video/mpv:gbm - Enable Graphics Buffer Manager based EGL video backend
+media-video/mpv:jpeg - Enable support for saving screenshots in JPEG format
+media-video/mpv:libass - Enable OSD (On Screen Display) and subtitles support via media-libs/libass
+media-video/mpv:libmpv - Build mpv shared library
+media-video/mpv:lua - Enable Lua scripting, OSC (On Screen Controller) GUI and net-misc/youtube-dl hook-script
+media-video/mpv:opengl - Enable support for various OpenGL-based video backends
+media-video/mpv:raspberry-pi - Enable support for the Raspberry Pi
+media-video/mpv:rubberband - Enable high quality pitch correction via media-libs/rubberband
+media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (Note: these outputs exist for compatibility reasons only, avoid if possible)
+media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and umpv
+media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
+media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
+media-video/mpv:zimg - Enable libzimg support (for vf_fingerprint)
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
 sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
 sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
 sys-devel/clang:static-analyzer - Install the Clang static analyzer
 sys-devel/clang:z3 - Enable the static analyzer constraint manager backend using sci-mathematics/z3
+sys-devel/gdb:client - Install the main "gdb" program (most people want this)
+sys-devel/gdb:lzma - Support lzma compression in ELF debug info
+sys-devel/gdb:multitarget - Support all known targets in one gdb binary
+sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
+sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+sys-devel/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
+sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+sys-devel/gdb:xxhash - Use dev-libs/xxhash to speed up internal hashing.
 sys-libs/libblockdev:bcache - Enable block device cache support.
 sys-libs/libblockdev:cryptsetup - Enable sys-fs/cryptsetup support
 sys-libs/libblockdev:device-mapper - Enable support for device-mapper from sys-fs/lvm2
