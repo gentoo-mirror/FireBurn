@@ -10,6 +10,7 @@ dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
 dev-python/ipython 7.5.0: Advanced interactive shell for Python
 dev-python/jupyter_client 5.3.4: Jupyter protocol implementation and client libraries
 dev-python/jupyter_core 4.6.1: Core common functionality of Jupyter projects
+dev-python/m2crypto 0.35.2: A Python crypto and SSL toolkit
 dev-python/markupsafe 0.23 1.0 1.1.1: Implements a XML/HTML/XHTML Markup safe string for Python
 dev-python/netaddr 0.7.19: Network address representation and manipulation library
 dev-python/prompt_toolkit 1.0.15 2.0.6 2.0.7 2.0.10 2.0.10-r1 3.0.3: Building powerful interactive command lines in Python
@@ -25,6 +26,7 @@ media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-video/mpv 0.31.0-r1 0.32.0-r1 9999: Media player based on MPlayer and mplayer2
 media-video/smplayer 9999: Great Qt GUI front-end for mplayer/mpv
 net-libs/libaccounts-glib 1.24-r1: Accounts SSO (Single Sign-On) management library for GLib applications
+net-misc/networkmanager 1.18.4-r1 1.18.4-r3 1.22.8-r1 1.22.10: A set of co-operative tools that make networking simple and straightforward
 sys-apps/usbutils 012: USB enumeration utilities
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
 sys-devel/gdb 9.1: GNU debugger
