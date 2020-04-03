@@ -31,6 +31,6 @@ sys-apps/usbutils 012: USB enumeration utilities
 sys-devel/clang 10.0.0.9999: C language family frontend for LLVM
 sys-devel/gdb 9.1: GNU debugger
 sys-libs/libblockdev 2.23: A library for manipulating block devices
-www-client/chromium 81.0.4044.83: Open-source version of Google Chrome web browser
+www-client/chromium 81.0.4044.92: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
