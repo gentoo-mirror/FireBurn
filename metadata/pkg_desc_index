@@ -19,7 +19,7 @@ dev-python/pyzmq 17.1.0: Lightweight and super-fast messaging library built on t
 dev-python/qtconsole 4.6.0: Qt-based console for Jupyter with support for rich media output
 dev-python/traitlets 4.3.2: A configuration system for Python applications
 dev-util/ninja 1.10.0: A small build system similar to make
-dev-vcs/git 2.26.0: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git 2.26.1: stupid content tracker: distributed VCS designed for speed and efficiency
 games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/alsa-lib 1.2.2: Advanced Linux Sound Architecture Library
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
