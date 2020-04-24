@@ -3,13 +3,6 @@
 # * generated automatically using pmaint *
 
 app-crypt/gpgme:common-lisp - Install common-lisp files
-dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
-dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
-dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
-dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
-dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
-dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
-dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
@@ -29,27 +22,6 @@ dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
 dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
 media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
 media-libs/alsa-lib:thread-safety - thread-safe API functions
-media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
-media-video/mpv:bluray - Enable playback of Blu-ray filesystems
-media-video/mpv:cli - Build mpv CLI player
-media-video/mpv:cplugins - Enable C plugins support
-media-video/mpv:cuda - Enable hardware video decoding via Nvidia CUDA
-media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video output
-media-video/mpv:egl - Enable support for various EGL-based video outputs / backends
-media-video/mpv:gamepad - Enable gamepad input support
-media-video/mpv:gbm - Enable Graphics Buffer Manager based EGL video backend
-media-video/mpv:jpeg - Enable support for saving screenshots in JPEG format
-media-video/mpv:libass - Enable OSD (On Screen Display) and subtitles support via media-libs/libass
-media-video/mpv:libmpv - Build mpv shared library
-media-video/mpv:lua - Enable Lua scripting, OSC (On Screen Controller) GUI and net-misc/youtube-dl hook-script
-media-video/mpv:opengl - Enable support for various OpenGL-based video backends
-media-video/mpv:raspberry-pi - Enable support for the Raspberry Pi
-media-video/mpv:rubberband - Enable high quality pitch correction via media-libs/rubberband
-media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (Note: these outputs exist for compatibility reasons only, avoid if possible)
-media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and umpv
-media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
-media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
-media-video/mpv:zimg - Enable libzimg support (for vf_fingerprint)
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
 net-misc/networkmanager:concheck - Enable connectivity checking support
