@@ -24,7 +24,7 @@ games-util/qtsixa 1.5.1: Sixaxis Joystick Manager
 media-libs/alsa-lib 1.2.2: Advanced Linux Sound Architecture Library
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-video/mpv 0.31.0-r1 0.32.0-r1 9999: Media player based on MPlayer and mplayer2
-media-video/smplayer 9999: Great Qt GUI front-end for mplayer/mpv
+media-video/smplayer 20.4.2: Great Qt GUI front-end for mplayer/mpv
 net-libs/libaccounts-glib 1.24-r1: Accounts SSO (Single Sign-On) management library for GLib applications
 net-misc/networkmanager 1.18.4-r1 1.18.4-r3 1.22.8-r1 1.22.10: A set of co-operative tools that make networking simple and straightforward
 sys-apps/usbutils 012: USB enumeration utilities
