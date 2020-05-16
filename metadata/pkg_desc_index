@@ -1,6 +1,6 @@
 app-admin/ansible 2.9.7 2.9.9: Model-driven deployment, config management, and command execution framework
 app-crypt/gpgme 1.13.1: GnuPG Made Easy is a library for making GnuPG easier to use
-app-emulation/dxvk 1.6.1 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/wine-staging 5.8: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 dev-java/java-config 2.2.0-r4: Java environment configuration query tool
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
