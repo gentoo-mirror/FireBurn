@@ -108,7 +108,7 @@ src_prepare() {
 	else
 		local buildtype="wine"
 		filter-flags -flto*
-		epatch "${FILESDIR}/gcc-10.patch"
+		eapply "${FILESDIR}/gcc-10.patch"
 	fi
 
 	# Filter -march flags as this has been causing issues

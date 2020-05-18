@@ -104,7 +104,7 @@ src_prepare() {
 	if use mingw; then
 		local buildtype="win"
 		filter-flags -Wl,--hash-style*
-		epatch -R "${FILESDIR}/gcc-10.patch"
+		eapply -R "${FILESDIR}/gcc-10.patch"
 	else
 		local buildtype="wine"
 		filter-flags -flto*
