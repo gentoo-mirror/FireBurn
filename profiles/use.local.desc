@@ -49,26 +49,6 @@ dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DA
 media-video/libva-utils:drm - Enables VA/DRM API support.
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
-net-misc/networkmanager:concheck - Enable connectivity checking support
-net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
-net-misc/networkmanager:consolekit - Use sys-auth/consolekit for session tracking
-net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting ip
-net-misc/networkmanager:dhcpcd - Use net-misc/dhcpcd for getting ip
-net-misc/networkmanager:elogind - Use sys-auth/elogind for session tracking
-net-misc/networkmanager:iwd - Use net-wireless/iwd instead of net-wireless/wpa_supplicant for wifi support by default
-net-misc/networkmanager:json - Enable JSON validation via dev-libs/jansson in libnm.
-net-misc/networkmanager:libpsl - Link against libpsl
-net-misc/networkmanager:lto - Link-time optimization
-net-misc/networkmanager:modemmanager - Enable support for mobile broadband devices using net-misc/modemmanager
-net-misc/networkmanager:nss - Use dev-libs/nss for cryptography
-net-misc/networkmanager:ofono - Use net-misc/ofono for telephony support.
-net-misc/networkmanager:ovs - Enable OpenVSwitch support
-net-misc/networkmanager:ppp - Enable support for mobile broadband and PPPoE connections using net-dialup/ppp
-net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS information in /etc/resolv.conf. Generally, a symlink to /run/NetworkManager/resolv.conf is simpler. On systems running systemd-resolved, disable this flag and create a symlink to /run/systemd/resolve/stub-resolv.conf.
-net-misc/networkmanager:teamd - Enable Teamd control support
-net-misc/networkmanager:tools - Build cli tools such as nmcli, nmtui and nm_cloud_setup
-net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
-net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
 www-client/chromium:closure-compile - Enable closure type-checking for Chrome's web technology-based UI. Requires Java.
 www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
