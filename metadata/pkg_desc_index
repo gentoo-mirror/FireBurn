@@ -16,7 +16,7 @@ dev-python/python-etcd 0.4.5-r1: A python client for etcd
 dev-python/qtconsole 4.6.0: Qt-based console for Jupyter with support for rich media output
 dev-vcs/git 2.27.0: stupid content tracker: distributed VCS designed for speed and efficiency
 media-gfx/reshade-shaders 9999 20200521: A collection of post-processing shaders written for ReShade
-media-libs/vkBasalt 9999: A Vulkan post processing layer for Linux
+media-libs/vkBasalt 0.3.2.1 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-video/libva-utils 2.7.1: Collection of utilities and tests for VA-API
 media-video/smplayer 20.4.2: Great Qt GUI front-end for mplayer/mpv
