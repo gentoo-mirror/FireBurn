@@ -46,6 +46,7 @@ dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PP
 dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
 dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
 dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
+media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 media-video/libva-utils:drm - Enables VA/DRM API support.
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
