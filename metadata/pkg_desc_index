@@ -14,7 +14,7 @@ dev-python/netaddr 0.7.19: Network address representation and manipulation libra
 dev-python/prompt_toolkit 1.0.15 2.0.6 2.0.7 2.0.10 2.0.10-r1 3.0.3: Building powerful interactive command lines in Python
 dev-python/python-etcd 0.4.5-r1: A python client for etcd
 dev-python/qtconsole 4.6.0: Qt-based console for Jupyter with support for rich media output
-dev-vcs/git 2.27.0: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git 2.28.0: stupid content tracker: distributed VCS designed for speed and efficiency
 media-gfx/reshade-shaders 9999 20200521: A collection of post-processing shaders written for ReShade
 media-libs/vkBasalt 0.3.2.1 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
