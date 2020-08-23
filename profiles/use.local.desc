@@ -61,6 +61,7 @@ www-client/chromium:system-ffmpeg - Use system ffmpeg instead of the bundled one
 www-client/chromium:system-icu - Use system icu instead of the bundled one
 www-client/chromium:system-libvpx - Use system libvpx instead of the bundled one
 www-client/chromium:tcmalloc - Use bundled tcmalloc instead of system malloc
+www-client/chromium:vaapi - Enable vaapi video acceleration
 www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
 x11-libs/libva:drm - Enables VA/DRM API support.
 x11-libs/libva:utils - Install VA-API utility programs.
