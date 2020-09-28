@@ -1,7 +1,7 @@
 app-admin/ansible 2.9.9 2.9.10 2.9.11 9999: Model-driven deployment, config management, and command execution framework
 app-crypt/gpgme 1.13.1 1.14.0: GnuPG Made Easy is a library for making GnuPG easier to use
 app-emulation/dxvk 1.6.1 1.7 1.7.1 9999: A Vulkan-based translation layer for Direct3D 10/11
-app-emulation/wine-staging 5.14 5.15 5.16 5.17 5.17.2 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-staging 5.14 5.15 5.16 5.17 5.18 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
 dev-python/ipykernel 5.1.4: IPython Kernel for Jupyter
 dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
