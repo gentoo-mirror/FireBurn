@@ -29,8 +29,11 @@ RDEPEND="
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	net-misc/sshpass
 	virtual/ssh
+	!<app-admin/ansible-2.10
 "
+# ansible-2.10 or above is needed for the collections
 DEPEND="
+	!<app-admin/ansible-2.10
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/packaging-16.6[${PYTHON_USEDEP}]
 	doc? (
@@ -47,6 +50,12 @@ DEPEND="
 		dev-python/unittest2[${PYTHON_USEDEP}]
 		dev-vcs/git
 	)"
+
+python_compile() {
+	# disable version checks on upgrade
+	export ANSIBLE_SKIP_CONFLICT_CHECK=1
+	distutils-r1_python_compile
+}
 
 python_compile_all() {
 	if use doc; then

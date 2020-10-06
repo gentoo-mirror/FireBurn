@@ -23,7 +23,6 @@ fi
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
 IUSE="doc test"
 RESTRICT="test"
 
@@ -38,11 +37,11 @@ RDEPEND="
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	net-misc/sshpass
 	virtual/ssh
-	!app-admin/ansible-base
+	app-admin/ansible-base
 "
 DEPEND="
-	!app-admin/ansible-base
 	>=dev-python/packaging-16.6[${PYTHON_USEDEP}]
+	app-admin/ansible-base
 	doc? (
 		dev-python/sphinx[${PYTHON_USEDEP}]
 		dev-python/sphinx-notfound-page[${PYTHON_USEDEP}]
