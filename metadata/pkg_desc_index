@@ -22,7 +22,7 @@ media-libs/vkBasalt 0.3.2.1 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-video/libva-utils 2.8.0: Collection of utilities and tests for VA-API
 media-video/smplayer 20.4.2: Great Qt GUI front-end for mplayer/mpv
-sys-auth/polkit 0.118: Policy framework for controlling privileges for system-wide services
+sys-auth/polkit 0.118-r1: Policy framework for controlling privileges for system-wide services
 www-client/chromium 86.0.4240.80: Open-source version of Google Chrome web browser
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-libs/libva 2.8.0: Video Acceleration (VA) API for Linux
