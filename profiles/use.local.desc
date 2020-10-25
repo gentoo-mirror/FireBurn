@@ -29,39 +29,4 @@ app-emulation/wine-staging:udev - Use virtual/libudev to provide plug and play s
 app-emulation/wine-staging:unwind - Use sys-libs/libunwind to unwind the stack
 app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
 app-emulation/wine-staging:vulkan - Enable Vulkan drivers
-dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
-dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
-dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
-dev-python/netaddr:cli - Enable netaddr shell with dev-python/ipython
-dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
-dev-vcs/git:cgi - Install gitweb too
-dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
-dev-vcs/git:gpg - Pull in gnupg for signing -- without gnupg, attempts at signing will fail at runtime!
-dev-vcs/git:highlight - GitWeb support for app-text/highlight
-dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
-dev-vcs/git:mediawiki-experimental - Add experimental patches for improved MediaWiki support
-dev-vcs/git:pcre-jit - Enable JIT for pcre
-dev-vcs/git:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
-dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
-dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
-dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
-dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
-media-video/libva-utils:drm - Enables VA/DRM API support.
-media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
-media-video/smplayer:mpris - Enable support for MPRIS2 (Media Player Remote Interfacing Specification, version 2), a DBus interface for remote control, which requires dev-qt/qtdbus as dependency.
-www-client/chromium:closure-compile - Enable closure type-checking for Chrome's web technology-based UI. Requires Java.
-www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
-www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
-www-client/chromium:jumbo-build - Combine source files to speed up build process.
-www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
-www-client/chromium:proprietary-codecs - Enable proprietary codecs like H.264, MP3
-www-client/chromium:suid - Build the SUID sandbox, which is only needed on CONFIG_USER_NS=n kernels
-www-client/chromium:system-ffmpeg - Use system ffmpeg instead of the bundled one
-www-client/chromium:system-icu - Use system icu instead of the bundled one
-www-client/chromium:system-libvpx - Use system libvpx instead of the bundled one
-www-client/chromium:tcmalloc - Use bundled tcmalloc instead of system malloc
-www-client/chromium:vaapi - Enable vaapi video acceleration
-www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
-x11-libs/libva:drm - Enables VA/DRM API support.
-x11-libs/libva:utils - Install VA-API utility programs.
