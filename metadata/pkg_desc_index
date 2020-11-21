@@ -1,6 +1,6 @@
 app-crypt/gpgme 1.13.1 1.14.0: GnuPG Made Easy is a library for making GnuPG easier to use
 app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 9999: A Vulkan-based translation layer for Direct3D 10/11
-app-emulation/wine-staging 5.14 5.15 5.16 5.17 5.18 5.19 5.20 5.21 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-staging 5.14 5.15 5.16 5.17 5.18 5.19 5.20 5.21 5.22 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 dev-lang/duktape 2.4.0 2.5.0-r1 2.6.0: Embeddable Javascript engine
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
 media-gfx/reshade-shaders 9999 20200521: A collection of post-processing shaders written for ReShade
