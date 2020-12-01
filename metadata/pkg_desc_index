@@ -1,12 +1,10 @@
-app-crypt/gpgme 1.13.1 1.14.0: GnuPG Made Easy is a library for making GnuPG easier to use
 app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 9999: A Vulkan-based translation layer for Direct3D 10/11
-app-emulation/wine-staging 5.14 5.15 5.16 5.17 5.18 5.19 5.20 5.21 5.22 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-dev-lang/duktape 2.4.0 2.5.0-r1 2.6.0: Embeddable Javascript engine
+app-emulation/wine-staging 5.22-r2: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
-media-gfx/reshade-shaders 9999 20200521: A collection of post-processing shaders written for ReShade
-media-libs/vkBasalt 0.3.2.1 9999: A Vulkan post processing layer for Linux
+media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
+media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
-sys-auth/polkit 0.118-r1: Policy framework for controlling privileges for system-wide services
+sys-auth/polkit 0.118-r2: Policy framework for controlling privileges for system-wide services
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
-x11-libs/libva-intel-media-driver 20.3.0: Intel Media Driver for VAAPI (iHD)
+x11-libs/libva-intel-media-driver 20.4.2: Intel Media Driver for VAAPI (iHD)
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
