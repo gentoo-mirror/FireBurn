@@ -1,4 +1,4 @@
-app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
