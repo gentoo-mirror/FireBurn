@@ -4,6 +4,7 @@ dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driv
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
+net-libs/webkit-gtk 2.30.4-r2: Open source web browser engine
 sys-auth/polkit 0.118-r2: Policy framework for controlling privileges for system-wide services
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-libs/libva-intel-media-driver 20.4.2: Intel Media Driver for VAAPI (iHD)
