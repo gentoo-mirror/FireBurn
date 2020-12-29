@@ -29,6 +29,7 @@ app-emulation/wine-staging:udev - Use virtual/libudev to provide plug and play s
 app-emulation/wine-staging:unwind - Use sys-libs/libunwind to unwind the stack
 app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
 app-emulation/wine-staging:vulkan - Enable Vulkan drivers
+dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 net-libs/webkit-gtk:egl - Enable EGL support
 net-libs/webkit-gtk:examples - Install the MiniBrowser example application
