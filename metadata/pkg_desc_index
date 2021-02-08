@@ -3,12 +3,12 @@ app-benchmarks/luxmark-scenes 3.1: Scenes pack for luxmark.
 app-editors/vscodium 1.52.1: VS Code without MS branding/telemetry/licensing
 app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/wine-staging 6.0_rc4 6.0_rc5 6.0_rc6: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-dev-lang/ispc 1.14.1: Intel SPMD Program Compiler
 dev-libs/ocl-icd 2.2.12-r4: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/rocm-opencl-driver 2.7.0: Radeon Open Compute OpenCL Compiler Tool Driver
+dev-util/intel-graphics-compiler 1.0.6083: LLVM-based OpenCL compiler targetting Intel Gen graphics hardware
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
-media-libs/embree 3.12.2: Embree ray tracing kernels by intel
+media-libs/embree 3.12.2: Collection of high-performance ray tracing kernels
 media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased rendering engine. It is built on physically based equations that model the transportation of light.
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
