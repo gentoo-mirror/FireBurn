@@ -4,3 +4,5 @@
 
 dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
+sys-auth/polkit:elogind - Use sys-auth/elogind for session tracking
+sys-auth/polkit:systemd - Use sys-apps/systemd for session tracking
