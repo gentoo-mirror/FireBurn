@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 DEFINED_PHASES=compile configure install postinst prepare pretend setup test
-DEPEND=|| ( >=app-emulation/wine-vanilla-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] >=app-emulation/wine-staging-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] >=app-emulation/wine-d3d9-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] >=app-emulation/wine-any-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] ) dev-util/glslang dev-util/vulkan-headers
+DEPEND=|| ( <=app-emulation/wine-vanilla-6.5:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] <=app-emulation/wine-staging-6.5:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] ) dev-util/glslang dev-util/vulkan-headers
 DESCRIPTION=A Vulkan-based translation layer for Direct3D 10/11
 EAPI=7
 HOMEPAGE=https://github.com/doitsujin/dxvk
@@ -8,10 +8,10 @@ INHERIT=meson multilib-minimal flag-o-matic
 IUSE=+d3d9 +d3d10 +d3d11 debug dxgi +mingw test winelib abi_x86_32 abi_x86_64
 KEYWORDS=-* ~amd64
 LICENSE=ZLIB
-RDEPEND=|| ( >=app-emulation/wine-vanilla-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] >=app-emulation/wine-staging-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] >=app-emulation/wine-d3d9-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] >=app-emulation/wine-any-3.14:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] )
+RDEPEND=|| ( <=app-emulation/wine-vanilla-6.5:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] <=app-emulation/wine-staging-6.5:*[abi_x86_32(-)?,abi_x86_64(-)?,vulkan] )
 REQUIRED_USE=^^ ( mingw winelib ) || ( abi_x86_32 abi_x86_64 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/doitsujin/dxvk/archive/v1.8.1.tar.gz -> dxvk-1.8.1.tar.gz
 _eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	20c4a380a6193a089c8c432f3e5f8402	meson	e43eef9331f54965a573ed380854ff47	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib-build	ac696f0bea6c503f5980bfd5a0f312e5	multilib-minimal	8bddda43703ba94d8341f4e247f97566	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	c0964e43ba712cb933da5f65b958fa88
-_md5_=d1990dd6ac862be7462e7dd91bbf6eea
+_md5_=ec6c094213f22f4021402f6448bc0851
