@@ -13,7 +13,6 @@ media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 sys-auth/polkit 0.118-r2: Policy framework for controlling privileges for system-wide services
 www-client/chromium 89.0.4389.114 89.0.4389.128 90.0.4430.61 90.0.4430.72 91.0.4469.4 91.0.4472.10: Open-source version of Google Chrome web browser
-x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-libs/libva-intel-media-driver 21.1.1: Intel Media Driver for VAAPI (iHD)
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
