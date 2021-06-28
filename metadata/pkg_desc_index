@@ -11,7 +11,7 @@ media-libs/embree 3.12.2: Collection of high-performance ray tracing kernels
 media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased rendering engine. It is built on physically based equations that model the transportation of light.
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
-sys-auth/polkit 0.118-r2 0.119-r1: Policy framework for controlling privileges for system-wide services
+sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
 www-client/chromium 89.0.4389.114 89.0.4389.128 90.0.4430.61 90.0.4430.72 91.0.4469.4 91.0.4472.10: Open-source version of Google Chrome web browser
 x11-libs/libva-intel-media-driver 21.1.1: Intel Media Driver for VAAPI (iHD)
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
