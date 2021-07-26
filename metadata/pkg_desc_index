@@ -1,7 +1,7 @@
 app-benchmarks/luxmark 3.1: A GPL OpenCL Benchmark.
 app-benchmarks/luxmark-scenes 3.1: Scenes pack for luxmark.
 app-editors/vscodium 1.52.1: VS Code without MS branding/telemetry/licensing
-app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 1.9.1 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/vkd3d-proton 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-libs/ocl-icd 2.2.12-r4 2.2.14-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-util/meson 0.57.2: Open source build system
