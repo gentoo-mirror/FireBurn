@@ -4,7 +4,6 @@ app-editors/vscodium 1.52.1: VS Code without MS branding/telemetry/licensing
 app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 1.9.1 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/vkd3d-proton 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-libs/ocl-icd 2.2.12-r4 2.2.14-r1: Alternative to vendor specific OpenCL ICD loaders
-dev-util/meson 0.57.2: Open source build system
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
 media-libs/embree 3.12.2: Collection of high-performance ray tracing kernels
@@ -12,7 +11,5 @@ media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased renderin
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
-www-client/chromium 89.0.4389.114 89.0.4389.128 90.0.4430.61 90.0.4430.72 91.0.4469.4 91.0.4472.10: Open-source version of Google Chrome web browser
-x11-libs/libva-intel-media-driver 21.1.1: Intel Media Driver for VAAPI (iHD)
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
