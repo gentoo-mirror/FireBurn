@@ -10,6 +10,15 @@ app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
+dev-lang/rust:clippy - Install clippy, Rust code linter
+dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly)
+dev-lang/rust:nightly - Enable nightly (UNSTABLE) features
+dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, unsupported)
+dev-lang/rust:rls - Install rls, Rust Language Server (used with IDEs supporting RLS protocol)
+dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
+dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
+dev-lang/rust:system-llvm - Use the system LLVM install
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-lang/spidermonkey:clang - Use Clang compiler instead of GCC
 dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
