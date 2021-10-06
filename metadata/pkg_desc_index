@@ -5,7 +5,7 @@ app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 1.9.1 1.9.2 9999: A Vul
 app-emulation/vkd3d-proton 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-office/libreoffice 7.1.6.2-r1: A full office productivity suite
 dev-lang/rust 1.55.0-r1: Systems programming language from Mozilla
-dev-lang/spidermonkey 78.14.0-r1: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 78.15.0-r1: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/ocl-icd 2.2.12-r4 2.2.14-r1: Alternative to vendor specific OpenCL ICD loaders
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
