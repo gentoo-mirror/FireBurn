@@ -15,6 +15,6 @@ media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
-www-client/firefox 92.0.1-r1: Firefox Web Browser
+www-client/firefox 92.0.1-r1 93.0: Firefox Web Browser
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
