@@ -3,18 +3,13 @@ app-benchmarks/luxmark-scenes 3.1: Scenes pack for luxmark.
 app-editors/vscodium 1.52.1: VS Code without MS branding/telemetry/licensing
 app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 1.9.1 1.9.2 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/vkd3d-proton 9999: A Vulkan-based translation layer for Direct3D 10/11
-app-office/libreoffice 7.1.6.2-r1: A full office productivity suite
-dev-lang/rust 1.55.0-r1: Systems programming language from Mozilla
-dev-lang/spidermonkey 78.15.0-r1: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/ocl-icd 2.2.12-r4 2.2.14-r1: Alternative to vendor specific OpenCL ICD loaders
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
 media-libs/embree 3.12.2: Collection of high-performance ray tracing kernels
 media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased rendering engine. It is built on physically based equations that model the transportation of light.
-media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
-www-client/firefox 92.0.1-r1 93.0: Firefox Web Browser
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
