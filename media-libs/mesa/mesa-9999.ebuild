@@ -27,7 +27,7 @@ RESTRICT="
 "
 
 RADEON_CARDS="r300 r600 radeon radeonsi"
-VIDEO_CARDS="${RADEON_CARDS} crocus freedreno intel iris lima nouveau panfrost v3d vc4 virgl vivante vmware"
+VIDEO_CARDS="${RADEON_CARDS} crocus freedreno i915 intel iris lima nouveau panfrost v3d vc4 virgl vivante vmware"
 for card in ${VIDEO_CARDS}; do
 	IUSE_VIDEO_CARDS+=" video_cards_${card}"
 done
@@ -44,6 +44,7 @@ REQUIRED_USE="
 	vulkan-overlay? ( vulkan )
 	video_cards_crocus? ( gallium )
 	video_cards_freedreno?  ( gallium )
+	video_cards_i915?   ( gallium )
 	video_cards_intel?  ( gallium )
 	video_cards_iris?   ( gallium )
 	video_cards_lima?   ( gallium )
@@ -99,8 +100,9 @@ RDEPEND="
 	)
 	${LIBDRM_DEPSTRING}[video_cards_freedreno?,video_cards_nouveau?,video_cards_vc4?,video_cards_vivante?,video_cards_vmware?,${MULTILIB_USEDEP}]
 	video_cards_intel? (
-		!video_cards_iris? ( ${LIBDRM_DEPSTRING}[video_cards_intel] )
+		!video_cards_crocus? ( !video_cards_iris? ( ${LIBDRM_DEPSTRING}[video_cards_intel] ) )
 	)
+	video_cards_i915? ( ${LIBDRM_DEPSTRING}[video_cards_intel] )
 	vulkan-overlay? ( dev-util/glslang:0=[${MULTILIB_USEDEP}] )
 	X? (
 		>=x11-libs/libX11-1.6.2:=[${MULTILIB_USEDEP}]
@@ -422,12 +424,14 @@ multilib_src_configure() {
 		gallium_enable video_cards_nouveau nouveau
 		gallium_enable zink zink
 
+		gallium_enable video_cards_i915 i915
 		gallium_enable video_cards_crocus crocus
 		gallium_enable video_cards_iris iris
-        if ! use video_cards_crocus && \
-            ! use video_cards_iris; then
-            gallium_enable video_cards_intel crocus iris
-        fi
+		if ! use video_cards_i915 && \
+			! use video_cards_crocus && \
+			! use video_cards_iris; then
+			gallium_enable video_cards_intel i915 crocus iris
+		fi
 
 		gallium_enable video_cards_r300 r300
 		gallium_enable video_cards_r600 r600
