@@ -1,7 +1,7 @@
 app-benchmarks/luxmark 3.1: A GPL OpenCL Benchmark.
 app-benchmarks/luxmark-scenes 3.1: Scenes pack for luxmark.
 app-editors/vscodium 1.52.1: VS Code without MS branding/telemetry/licensing
-app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 1.9.1 1.9.2 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8.1 1.9 1.9.1 1.9.2 1.9.3 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/vkd3d-proton 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/wine-staging 7.0_rc2 7.0_rc3: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 dev-libs/ocl-icd 2.2.12-r4 2.2.14-r1: Alternative to vendor specific OpenCL ICD loaders
@@ -11,7 +11,6 @@ media-libs/embree 3.12.2: Collection of high-performance ray tracing kernels
 media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased rendering engine. It is built on physically based equations that model the transportation of light.
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
-net-fs/samba 4.15.3-r1: Samba Suite Version 4
 sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
