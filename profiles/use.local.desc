@@ -31,7 +31,9 @@ app-emulation/wine-staging:usb - Use virtual/libusb to provide USB support
 app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
 app-emulation/wine-staging:vulkan - Enable Vulkan drivers
 dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
+dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
+media-libs/vulkan-loader:layers - Include the vulkan layers
 media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
 media-video/mpv:bluray - Enable playback of Blu-ray filesystems
 media-video/mpv:cli - Build mpv CLI player
