@@ -34,6 +34,11 @@ dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 media-libs/vulkan-loader:layers - Include the vulkan layers
+media-video/libva-utils:drm - Enables VA/DRM API support.
+media-video/libva-utils:examples - Build and install decode, encode, videoprocess and other VA-API examples.
+media-video/libva-utils:putsurface - Build and install putsurface tool.
+media-video/libva-utils:test-va-api - Install test_va_api tool for thorough testing of the installed VA-API.
+media-video/libva-utils:vainfo - Build and install vainfo tool.
 media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
 media-video/mpv:bluray - Enable playback of Blu-ray filesystems
 media-video/mpv:cli - Build mpv CLI player
