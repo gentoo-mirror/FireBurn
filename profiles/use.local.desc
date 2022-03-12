@@ -32,6 +32,8 @@ app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide Direct3D 1
 app-emulation/wine-staging:vulkan - Enable Vulkan drivers
 dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
+games-emulation/m64py:7z - Ensure support for .7z archives.
+games-emulation/m64py:rar - Ensure support for .rar archives.
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 media-libs/vulkan-loader:layers - Include the vulkan layers
 media-video/libva-utils:drm - Enables VA/DRM API support.
