@@ -16,6 +16,7 @@ media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-libs/vulkan-loader 1.3.206: Vulkan Installable Client Driver (ICD) Loader
 media-video/libva-utils 2.14.0: Collection of utilities and tests for VA-API
 media-video/mpv 0.34.1: Media player based on MPlayer and mplayer2
+net-libs/webkit-gtk 2.34.6: Open source web browser engine
 sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
 x11-libs/libva 2.14.0: Video Acceleration (VA) API for Linux
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
