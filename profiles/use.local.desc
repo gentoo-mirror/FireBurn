@@ -84,12 +84,6 @@ media-video/libva-utils:examples - Build and install decode, encode, videoproces
 media-video/libva-utils:putsurface - Build and install putsurface tool.
 media-video/libva-utils:test-va-api - Install test_va_api tool for thorough testing of the installed VA-API.
 media-video/libva-utils:vainfo - Build and install vainfo tool.
-net-libs/webkit-gtk:avif - Enable support for AVIF images via media-libs/libavif
-net-libs/webkit-gtk:egl - Enable EGL support
-net-libs/webkit-gtk:examples - Install the MiniBrowser example application
-net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
-net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
-net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 sys-auth/polkit:elogind - Use sys-auth/elogind for session tracking
 sys-auth/polkit:systemd - Use sys-apps/systemd for session tracking
 x11-libs/libva:drm - Enables VA/DRM API support.
