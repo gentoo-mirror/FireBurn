@@ -8,7 +8,6 @@ app-office/libreoffice 7.2.6.2 7.3.1.3-r1: A full office productivity suite
 dev-lang/rust 1.59.0: Systems programming language from Mozilla
 dev-lang/spidermonkey 91.8.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/ocl-icd 2.2.12-r4 2.3.0 2.3.1: Alternative to vendor specific OpenCL ICD loaders
-dev-util/vulkan-tools 1.3.204-r1: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 games-emulation/m64py 0.2.5: A frontend for Mupen64Plus
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
@@ -17,7 +16,6 @@ media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased renderin
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
-media-libs/vulkan-loader 1.3.206: Vulkan Installable Client Driver (ICD) Loader
 media-video/libva-utils 2.14.0: Collection of utilities and tests for VA-API
 sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
 x11-libs/libdrm 9999: X.Org libdrm library

@@ -55,7 +55,6 @@ dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of
 dev-lang/spidermonkey:lto - Enable Link Time Optimization (LTO)
 dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
 dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
-dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 games-emulation/m64py:7z - Ensure support for .7z archives.
 games-emulation/m64py:rar - Ensure support for .rar archives.
 media-libs/mesa:classic - Build drivers based on the classic architecture.
@@ -78,7 +77,6 @@ media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
-media-libs/vulkan-loader:layers - Include the vulkan layers
 media-video/libva-utils:drm - Enables VA/DRM API support.
 media-video/libva-utils:examples - Build and install decode, encode, videoprocess and other VA-API examples.
 media-video/libva-utils:putsurface - Build and install putsurface tool.
