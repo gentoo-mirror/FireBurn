@@ -13,11 +13,9 @@ media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20201130: A collection of post-processing shaders written for ReShade
 media-libs/embree 3.12.2: Collection of high-performance ray tracing kernels
 media-libs/luxrays 1.6: LuxCoreRender is a physically correct, unbiased rendering engine. It is built on physically based equations that model the transportation of light.
-media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.3 9999: A Vulkan post processing layer for Linux
 media-libs/vulkan-demos 9999: Examples and demos for the Vulkan API
 media-video/libva-utils 2.14.0: Collection of utilities and tests for VA-API
-sys-auth/polkit 0.118-r3 0.119-r3: Policy framework for controlling privileges for system-wide services
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-libs/libva 2.14.0: Video Acceleration (VA) API for Linux
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
