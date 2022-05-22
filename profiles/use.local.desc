@@ -2,15 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-games-emulation/m64py:7z - Ensure support for .7z archives.
-games-emulation/m64py:rar - Ensure support for .rar archives.
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
-media-video/libva-utils:drm - Enables VA/DRM API support.
-media-video/libva-utils:examples - Build and install decode, encode, videoprocess and other VA-API examples.
-media-video/libva-utils:putsurface - Build and install putsurface tool.
-media-video/libva-utils:test-va-api - Install test_va_api tool for thorough testing of the installed VA-API.
-media-video/libva-utils:vainfo - Build and install vainfo tool.
-x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
-x11-libs/libdrm:valgrind - Compile in valgrind memory hints
-x11-libs/libva:drm - Enables VA/DRM API support.
-x11-libs/libva:utils - Install VA-API utility programs.
