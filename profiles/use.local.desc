@@ -2,55 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-emulation/wine-staging:capi - Enable ISDN support via CAPI
-app-emulation/wine-staging:custom-cflags - Bypass strip-flags; use at your own peril
-app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
-app-emulation/wine-staging:gecko - Add support for the Gecko engine when using iexplore
-app-emulation/wine-staging:gssapi - Use GSSAPI (Kerberos SSP support)
-app-emulation/wine-staging:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
-app-emulation/wine-staging:mingw - Build PE files using a MinGW cross compiler
-app-emulation/wine-staging:mono - Add support for .NET using Wine's Mono add-on
-app-emulation/wine-staging:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
-app-emulation/wine-staging:opencl - Enable OpenCL support
-app-emulation/wine-staging:osmesa - Add support for OpenGL in bitmaps using libOSMesa
-app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark)
-app-emulation/wine-staging:perl - Install helpers written in perl (winedump/winemaker)
-app-emulation/wine-staging:pipelight - Apply Wine-Staging patches for Pipelight/Silverlight support
-app-emulation/wine-staging:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
-app-emulation/wine-staging:run-exes - Use Wine to open and run .EXE and .MSI files
-app-emulation/wine-staging:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
-app-emulation/wine-staging:sdl - Add support for gamepad detection using SDL
-app-emulation/wine-staging:staging - Apply Wine-Staging patches for advanced feature support that haven't made it into upstream Wine yet
-app-emulation/wine-staging:udev - Use virtual/libudev to provide plug and play support
-app-emulation/wine-staging:unwind - Use sys-libs/libunwind to unwind the stack
-app-emulation/wine-staging:usb - Use virtual/libusb to provide USB support
-app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
-app-emulation/wine-staging:vulkan - Enable Vulkan drivers
-app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
-app-office/libreoffice:clang - Use Clang compiler instead of GCC
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
-dev-lang/rust:clippy - Install clippy, Rust code linter
-dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
-dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly)
-dev-lang/rust:nightly - Enable nightly (UNSTABLE) features
-dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
-dev-lang/rust:rls - Install rls, Rust Language Server (used with IDEs supporting RLS protocol)
-dev-lang/rust:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
-dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
-dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
-dev-lang/rust:system-llvm - Use the system LLVM install
-dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
-dev-lang/spidermonkey:clang - Use Clang compiler instead of GCC
-dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
-dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
-dev-lang/spidermonkey:lto - Enable Link Time Optimization (LTO)
-dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
-dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 games-emulation/m64py:7z - Ensure support for .7z archives.
 games-emulation/m64py:rar - Ensure support for .rar archives.
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
