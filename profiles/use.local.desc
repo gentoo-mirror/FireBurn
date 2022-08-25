@@ -3,3 +3,4 @@
 # * generated automatically using pmaint *
 
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
+x11-libs/libdrm:valgrind - Compile in valgrind memory hints
