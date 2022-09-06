@@ -15,6 +15,7 @@ media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20220423: A collection of post-processing shaders written for ReShade
 media-libs/mesa 22.1.3 22.1.7 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.5 9999: A Vulkan post processing layer for Linux
+www-client/chromium 106.0.5249.12: Open-source version of Google Chrome web browser
 www-client/firefox 104.0.2: Firefox Web Browser
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
