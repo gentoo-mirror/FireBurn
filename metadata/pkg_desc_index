@@ -20,6 +20,6 @@ media-libs/vkBasalt 0.3.2.5 9999: A Vulkan post processing layer for Linux
 sys-devel/llvm 15.0.1-r1: Low Level Virtual Machine
 virtual/rust 1.63.0: Virtual for Rust language compiler
 www-client/chromium 106.0.5249.12: Open-source version of Google Chrome web browser
-www-client/firefox 104.0.2: Firefox Web Browser
+www-client/firefox 104.0.2 105.0: Firefox Web Browser
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
