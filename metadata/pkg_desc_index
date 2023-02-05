@@ -1,6 +1,6 @@
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
-media-gfx/reshade-shaders 9999 20220423: A collection of post-processing shaders written for ReShade
+media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
-media-libs/vkBasalt 0.3.2.5 9999: A Vulkan post processing layer for Linux
+media-libs/vkBasalt 0.3.2.8 9999: A Vulkan post processing layer for Linux
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
