@@ -1,3 +1,5 @@
+dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
+games-emulation/m64py 0.2.5_p20211222-r1: A frontend for Mupen64Plus
 media-gfx/afdko 3.5.1: Adobe Font Development Kit for OpenType
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
