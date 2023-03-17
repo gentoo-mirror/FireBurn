@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-libs/libxml2 x11-libs/gtk+:3 x11-themes/gtk-engines-murrine
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
 _md5_=44310470f24e251f16f6a5a7baa778cf
