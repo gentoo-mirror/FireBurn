@@ -1,5 +1,5 @@
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
-dev-lang/rust 1.68.1: Systems programming language from Mozilla
+dev-lang/rust 1.68.1 1.68.2: Systems programming language from Mozilla
 dev-util/bindgen 0.61.0: A dynamic tracing profiler for Linux
 dev-util/spirv-headers 1.3.243: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-llvm-translator 16.0.0: Bi-directional translator between SPIR-V and LLVM IR
