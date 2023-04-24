@@ -9,4 +9,5 @@ media-libs/vkBasalt 0.3.2.8 9999: A Vulkan post processing layer for Linux
 www-client/chromium 112.0.5615.49 112.0.5615.121 112.0.5615.165: Open-source version of Google Chrome web browser
 www-client/firefox 112.0 112.0.1: Firefox Web Browser
 x11-libs/libdrm 9999: X.Org libdrm library
+x11-misc/sddm 9999: Simple Desktop Display Manager
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
