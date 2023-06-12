@@ -16,7 +16,6 @@ dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
 dev-lang/rust:system-llvm - Use the system LLVM installation
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-util/spirv-llvm-translator:tools - Install the command-line translator llvm-spirv
-dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 games-emulation/m64py:7z - Ensure support for .7z archives.
 games-emulation/m64py:rar - Ensure support for .rar archives.
 games-emulation/yuzu:compatibility-list - Downloads the latest compatibility list
@@ -26,7 +25,6 @@ games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
-media-libs/vulkan-loader:layers - Include the vulkan layers
 www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:gtk4 - Build with GTK4 headers.
