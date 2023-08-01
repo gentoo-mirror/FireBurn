@@ -1,10 +1,14 @@
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
-dev-lang/rust 1.68.1 1.68.2 1.69.0-r1: Systems programming language from Mozilla
-dev-util/glslang 1.3.246.1: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/spirv-headers 1.3.246.1: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 16.0.0: Bi-directional translator between SPIR-V and LLVM IR
-dev-util/spirv-tools 1.3.246.1: Provides an API and commands for processing SPIR-V modules
+dev-libs/rocm-comgr 5.5.1: Radeon Open Compute Code Object Manager
+dev-libs/rocm-device-libs 5.5.1: Radeon Open Compute Device Libraries
+dev-libs/rocm-opencl-runtime 5.5.1: Radeon Open Compute OpenCL Compatible Runtime
+dev-libs/rocr-runtime 5.5.1: Radeon Open Compute Runtime
+dev-libs/roct-thunk-interface 5.5.1: Radeon Open Compute Thunk Interface
+dev-util/hip 5.5.1: C++ Heterogeneous-Compute Interface for Portability
+dev-util/rocm-cmake 5.5.1: Radeon Open Compute CMake Modules
+dev-util/rocm-smi 5.5.1: ROCm System Management Interface Library
+dev-util/rocminfo 5.5.1: ROCm Application for Reporting System Info
 games-emulation/m64py 0.2.5_p20211222-r1: A frontend for Mupen64Plus
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
