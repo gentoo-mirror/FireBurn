@@ -13,7 +13,5 @@ games-emulation/m64py 0.2.5_p20211222-r1: A frontend for Mupen64Plus
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
-www-client/chromium 114.0.5735.106 115.0.5790.24 116.0.5803.2: Open-source version of Google Chrome web browser
-www-client/firefox 113.0.1 113.0.2: Firefox Web Browser
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
