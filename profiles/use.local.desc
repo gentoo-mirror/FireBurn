@@ -39,4 +39,46 @@ media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 virtual/rust:rustfmt - Install rustfmt, Rust code formatter
+www-client/chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+www-client/chromium:gtk4 - Build with GTK4 headers.
+www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
+www-client/chromium:headless - Build Ozone only with headless backend, NOT RECOMMENDED for general use.
+www-client/chromium:libcxx - Use bundled libc++ instead of libstdc++ for building.
+www-client/chromium:lto - Build with Link Time Optimizations (via clang's ThinLTO)
+www-client/chromium:official - Enable Official build instead of Developer build.
+www-client/chromium:pax-kernel - Allow building on a PaX-enabled kernel
+www-client/chromium:pgo - Build with Profile Guided Optimizations (2-stage compilation)
+www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
+www-client/chromium:proprietary-codecs - Enable codecs for patent-encumbered audio and video formats.
+www-client/chromium:suid - Build the SUID sandbox, which is only needed on CONFIG_USER_NS=n kernels
+www-client/chromium:system-av1 - Use system media-libs/libaom and media-libs/dav1d instead of the bundled libraries.
+www-client/chromium:system-ffmpeg - Use system media-video/ffmpeg instead of the bundled version.
+www-client/chromium:system-harfbuzz - Use system media-libs/harfbuzz instead of the bundled library.
+www-client/chromium:system-icu - Use system dev-libs/icu instead of the bundled one
+www-client/chromium:system-png - Use system media-libs/libpng instead of the bundled library
+www-client/chromium:system-zstd - Use system app-arch/zstd instead of the bundled one.
+www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
+www-client/firefox:clang - Use Clang compiler instead of GCC
+www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
+www-client/firefox:geckodriver - Enable WebDriver support
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+www-client/firefox:jumbo-build - Enable unified build - combines source files to speed up build process, but requires more memory
+www-client/firefox:libproxy - Enable libproxy support
+www-client/firefox:lto - Enable Link Time Optimization (LTO)
+www-client/firefox:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
+www-client/firefox:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
+www-client/firefox:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
+www-client/firefox:sndio - Enable support for the media-sound/sndio backend
+www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
+www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
+www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
+www-client/firefox:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+www-client/firefox:system-python-libs - Use system's python site instead of bundled python libraries
+www-client/firefox:system-webp - Use the system-wide media-libs/libwebp instead of bundled
+www-client/firefox:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
