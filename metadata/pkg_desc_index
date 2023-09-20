@@ -1,3 +1,4 @@
+app-office/libreoffice 7.5.6.2: A full office productivity suite
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
 dev-lang/rust 1.72.0: Systems programming language from Mozilla
