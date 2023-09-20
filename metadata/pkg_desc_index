@@ -10,6 +10,7 @@ dev-util/hip 5.5.1: C++ Heterogeneous-Compute Interface for Portability
 dev-util/rocm-cmake 5.5.1: Radeon Open Compute CMake Modules
 dev-util/rocm-smi 5.5.1: ROCm System Management Interface Library
 dev-util/rocminfo 5.5.1: ROCm Application for Reporting System Info
+dev-util/spirv-llvm-translator 17.0.0: Bi-directional translator between SPIR-V and LLVM IR
 games-emulation/m64py 0.2.5_p20211222-r1: A frontend for Mupen64Plus
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
