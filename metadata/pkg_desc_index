@@ -19,6 +19,6 @@ media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
 virtual/rust 1.72.0: Virtual for Rust language compiler
 www-client/chromium 117.0.5938.92: Open-source version of Google Chrome web browser
-www-client/firefox 117.0.1: Firefox Web Browser
+www-client/firefox 118.0: Firefox Web Browser
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
