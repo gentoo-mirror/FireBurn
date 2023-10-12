@@ -1,7 +1,6 @@
 app-office/libreoffice 7.5.7.1: A full office productivity suite
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
-dev-lang/rust 1.72.0-r1: Systems programming language from Mozilla
 dev-libs/rocm-comgr 5.5.1: Radeon Open Compute Code Object Manager
 dev-libs/rocm-device-libs 5.5.1: Radeon Open Compute Device Libraries
 dev-libs/rocm-opencl-runtime 5.5.1: Radeon Open Compute OpenCL Compatible Runtime
@@ -17,8 +16,5 @@ games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
-virtual/rust 1.72.0-r1: Virtual for Rust language compiler
-www-client/chromium 117.0.5938.92: Open-source version of Google Chrome web browser
-www-client/firefox 118.0.1: Firefox Web Browser
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
