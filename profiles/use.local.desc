@@ -11,7 +11,6 @@ app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
-dev-util/spirv-llvm-translator:tools - Install the command-line translator llvm-spirv
 games-emulation/m64py:7z - Ensure support for .7z archives.
 games-emulation/m64py:rar - Ensure support for .rar archives.
 games-emulation/yuzu:compatibility-list - Downloads the latest compatibility list

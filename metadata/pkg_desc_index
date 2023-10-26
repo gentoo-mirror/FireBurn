@@ -1,16 +1,6 @@
 app-office/libreoffice 7.5.7.1: A full office productivity suite
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
-dev-libs/rocm-comgr 5.5.1: Radeon Open Compute Code Object Manager
-dev-libs/rocm-device-libs 5.5.1: Radeon Open Compute Device Libraries
-dev-libs/rocm-opencl-runtime 5.5.1: Radeon Open Compute OpenCL Compatible Runtime
-dev-libs/rocr-runtime 5.5.1: Radeon Open Compute Runtime
-dev-libs/roct-thunk-interface 5.5.1: Radeon Open Compute Thunk Interface
-dev-util/hip 5.5.1: C++ Heterogeneous-Compute Interface for Portability
-dev-util/rocm-cmake 5.5.1: Radeon Open Compute CMake Modules
-dev-util/rocm-smi 5.5.1: ROCm System Management Interface Library
-dev-util/rocminfo 5.5.1: ROCm Application for Reporting System Info
-dev-util/spirv-llvm-translator 17.0.0: Bi-directional translator between SPIR-V and LLVM IR
 games-emulation/m64py 0.2.5_p20211222-r1: A frontend for Mupen64Plus
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
