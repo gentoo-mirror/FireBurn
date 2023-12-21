@@ -1,6 +1,8 @@
+app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-office/libreoffice 7.5.7.1: A full office productivity suite
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
+games-emulation/cemu 2.0_p20230625: Wii U emulator.
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux

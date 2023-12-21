@@ -11,6 +11,9 @@ app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
+games-emulation/cemu:cubeb - Enable cubeb audio support
+games-emulation/cemu:discord - Enable rich Discord presence
+games-emulation/cemu:vulkan - Enable Vulkan graphics support
 games-emulation/yuzu:compatibility-list - Downloads the latest compatibility list
 games-emulation/yuzu:cubeb - Enables the cubeb audio backend
 games-emulation/yuzu:discord - Enables Discord Rich Presence
