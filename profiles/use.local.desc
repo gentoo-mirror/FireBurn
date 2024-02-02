@@ -14,6 +14,10 @@ dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
 games-emulation/cemu:cubeb - Enable cubeb audio support
 games-emulation/cemu:discord - Enable rich Discord presence
 games-emulation/cemu:vulkan - Enable Vulkan graphics support
+games-emulation/dolphin:discord-presence - Enables Discord Rich Presence, show the current game on Discord
+games-emulation/dolphin:evdev - Enable evdev input support
+games-emulation/dolphin:log - Increase logging output
+games-emulation/dolphin:mgba - Enables GBA controllers emulation using libmgba.
 games-emulation/yuzu:compatibility-list - Downloads the latest compatibility list
 games-emulation/yuzu:cubeb - Enables the cubeb audio backend
 games-emulation/yuzu:discord - Enables Discord Rich Presence
