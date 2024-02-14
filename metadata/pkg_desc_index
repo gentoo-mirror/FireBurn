@@ -7,7 +7,6 @@ games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/libspng 0.7.4: Simple, modern libpng alternative.
-media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
 x11-libs/libdrm 9999: X.Org libdrm library
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
