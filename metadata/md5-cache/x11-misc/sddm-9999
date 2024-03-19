@@ -1,0 +1,18 @@
+BDEPEND=dev-python/docutils >=dev-build/cmake-3.25.0 qt5? ( >=dev-qt/linguist-tools-5.15.12:5 ) !qt5? ( >=dev-qt/qttools-6.6.2[linguist] ) kde-frameworks/extra-cmake-modules:0 virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] app-alternatives/ninja >=dev-build/cmake-3.20.5 virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst prepare setup test unpack
+DEPEND=acct-group/sddm acct-user/sddm sys-libs/pam x11-libs/libXau x11-libs/libxcb:= elogind? ( sys-auth/elogind[pam] ) qt5? ( >=dev-qt/qtcore-5.15.12:5 >=dev-qt/qtdbus-5.15.12:5 >=dev-qt/qtdeclarative-5.15.12:5 >=dev-qt/qtgui-5.15.12:5 >=dev-qt/qtnetwork-5.15.12:5 ) !qt5? ( >=dev-qt/qtbase-6.6.2:6[dbus,gui,network] >=dev-qt/qtdeclarative-6.6.2:6 ) systemd? ( sys-apps/systemd:=[pam] ) !systemd? ( sys-power/upower ) test? ( qt5? ( >=dev-qt/qttest-5.15.12:5 ) !qt5? ( >=dev-qt/qtbase-6.6.2:6[network,test] ) )
+DESCRIPTION=Simple Desktop Display Manager
+EAPI=8
+HOMEPAGE=https://github.com/sddm/sddm
+INHERIT=git-r3 cmake linux-info pam systemd tmpfiles
+IUSE=+elogind +qt5 systemd test +X
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86
+LICENSE=GPL-2+ MIT CC-BY-3.0 CC-BY-SA-3.0 public-domain
+PROPERTIES=live
+RDEPEND=acct-group/sddm acct-user/sddm sys-libs/pam x11-libs/libXau x11-libs/libxcb:= elogind? ( sys-auth/elogind[pam] ) qt5? ( >=dev-qt/qtcore-5.15.12:5 >=dev-qt/qtdbus-5.15.12:5 >=dev-qt/qtdeclarative-5.15.12:5 >=dev-qt/qtgui-5.15.12:5 >=dev-qt/qtnetwork-5.15.12:5 ) !qt5? ( >=dev-qt/qtbase-6.6.2:6[dbus,gui,network] >=dev-qt/qtdeclarative-6.6.2:6 ) systemd? ( sys-apps/systemd:=[pam] ) !systemd? ( sys-power/upower ) X? ( x11-base/xorg-server ) !systemd? ( gui-libs/display-manager-init ) virtual/tmpfiles
+REQUIRED_USE=^^ ( elogind systemd )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~asturm/distfiles/sddm-0.21.0-pam.tar.xz
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	linux-info	7ca3057b277f1e5978947b4cc289ce62	pam	b56d0c9c20fc5b553f13c8ae165a10a5	systemd	c8b03e8df84486aa991d4396686e8942	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
+_md5_=03dc1c50dde120893c347472e929c2a5

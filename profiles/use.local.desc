@@ -28,6 +28,25 @@ games-emulation/yuzu:discord - Enables Discord Rich Presence
 games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
+kde-plasma/plasma-meta:browser-integration - Enable integration with Chrome/Firefox with browser extensions
+kde-plasma/plasma-meta:colord - Enable kde-plasma/kwin color management via x11-misc/colord
+kde-plasma/plasma-meta:crash-handler - Pull in kde-plasma/drkonqi for assisted upstream crash reports
+kde-plasma/plasma-meta:crypt - Pull in kde-plasma/plasma-vault for encrypted vaults integration
+kde-plasma/plasma-meta:discover - Pull in resources management GUI; a centralised GHNS alternative and optional sys-apps/fwupd frontend
+kde-plasma/plasma-meta:display-manager - Pull in a graphical display manager
+kde-plasma/plasma-meta:firewall - Pull in kde-plasma/plasma-firewall for system firewall administration
+kde-plasma/plasma-meta:flatpak - Pull in kde-plasma/flatpak-kcm for flatpak permissions administration
+kde-plasma/plasma-meta:grub - Pull in Breeze theme for sys-boot/grub
+kde-plasma/plasma-meta:gtk - Enable Breeze widget style and system settings module for GTK+
+kde-plasma/plasma-meta:kwallet - Enable support for KWallet auto-unlocking via kde-plasma/kwallet-pam
+kde-plasma/plasma-meta:plymouth - Pull in Breeze theme for sys-boot/plymouth
+kde-plasma/plasma-meta:pulseaudio - Install Plasma applet for PulseAudio volume management
+kde-plasma/plasma-meta:sddm - Pull in the x11-misc/sddm display manager and system settings module
+kde-plasma/plasma-meta:sdk - Pull in kde-plasma/plasma-sdk for Plasma development
+kde-plasma/plasma-meta:smart - Pull in kde-plasma/plasma-disks for disk health monitoring
+kde-plasma/plasma-meta:thunderbolt - Pull in kde-plasma/plasma-thunderbolt control center module
+kde-plasma/plasma-meta:wacom - Pull in kde-plasma/wacomtablet control center module
+kde-plasma/plasma-meta:wallpapers - Install wallpapers for the Plasma Workspace
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 virtual/rust:rustfmt - Install rustfmt, Rust code formatter
 www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
