@@ -1,7 +1,7 @@
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
-dev-lang/rust 1.76.0: Systems programming language from Mozilla
+dev-lang/rust 1.76.0-r1: Systems programming language from Mozilla
 games-emulation/cemu 2.0_p20240119: Wii U emulator.
 games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
