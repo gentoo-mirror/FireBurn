@@ -28,6 +28,8 @@ games-emulation/yuzu:discord - Enables Discord Rich Presence
 games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
+gui-wm/gamescope:pipewire - Enable screen capture via PipeWire
+gui-wm/gamescope:wsi-layer - Enable the WSI layer (required for HDR)
 kde-plasma/plasma-meta:browser-integration - Enable integration with Chrome/Firefox with browser extensions
 kde-plasma/plasma-meta:colord - Enable kde-plasma/kwin color management via x11-misc/colord
 kde-plasma/plasma-meta:crash-handler - Pull in kde-plasma/drkonqi for assisted upstream crash reports
