@@ -30,6 +30,11 @@ games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
 gui-wm/gamescope:pipewire - Enable screen capture via PipeWire
 gui-wm/gamescope:wsi-layer - Enable the WSI layer (required for HDR)
+kde-plasma/plasma-desktop:ibus - Use ibus input method via app-i18n/ibus
+kde-plasma/plasma-desktop:kaccounts - Build the OpenDesktop integration plugin
+kde-plasma/plasma-desktop:scim - Enable applets that use app-i18n/scim
+kde-plasma/plasma-desktop:screencast - Enable screencast portal thumbnails using kde-plasma/kpipewire
+kde-plasma/plasma-desktop:sdl - Enable gamepad support using media-libs/libsdl2
 kde-plasma/plasma-meta:browser-integration - Enable integration with Chrome/Firefox with browser extensions
 kde-plasma/plasma-meta:colord - Enable kde-plasma/kwin color management via x11-misc/colord
 kde-plasma/plasma-meta:crash-handler - Pull in kde-plasma/drkonqi for assisted upstream crash reports
