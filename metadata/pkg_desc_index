@@ -8,7 +8,7 @@ games-emulation/yuzu 9999: An emulator for Nintendo Switch
 gui-libs/libdecor 0.2.2: A client-side decorations library for Wayland clients
 gui-wm/gamescope 9999: Efficient micro-compositor for running games
 kde-plasma/plasma-desktop 9999-r1: KDE Plasma desktop
-kde-plasma/plasma-meta 6.0.3 9999-r1: Merge this to pull in all Plasma 6 packages
+kde-plasma/plasma-meta 6.0.3 6.0.4 9999-r1: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-pa 9999-r1: Plasma applet for audio volume management using PulseAudio
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/libspng 0.7.4: Simple, modern libpng alternative.
