@@ -17,6 +17,6 @@ media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management HDR protocol for experimentation
 virtual/rust 1.77.1: Virtual for Rust language compiler
 www-client/chromium 123.0.6312.46: Open-source version of Google Chrome web browser
-www-client/firefox 124.0.2: Firefox Web Browser
+www-client/firefox 125.0.1: Firefox Web Browser
 x11-misc/sddm 9999: Simple Desktop Display Manager
 x11-themes/numix-gtk-theme-light 9999: A modern flat theme with a combination of light and dark elements
