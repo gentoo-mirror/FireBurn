@@ -12,10 +12,12 @@ kde-plasma/plasma-desktop 9999-r1: KDE Plasma desktop
 kde-plasma/plasma-meta 6.0.3 6.0.4 9999-r1: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-pa 9999-r1: Plasma applet for audio volume management using PulseAudio
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
+media-libs/gst-plugins-base 1.20.5 1.20.6 1.22.11: Basepack of plugins for gstreamer
 media-libs/libspng 0.7.4: Simple, modern libpng alternative.
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management HDR protocol for experimentation
+media-plugins/gst-plugins-vaapi 1.20.5 1.20.6 1.22.11: Hardware accelerated video decoding through VA-API plugin for GStreamer
 virtual/rust 1.77.1: Virtual for Rust language compiler
 www-client/chromium 123.0.6312.46: Open-source version of Google Chrome web browser
 www-client/firefox 125.0.2: Firefox Web Browser
