@@ -4,6 +4,7 @@ dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
 dev-lang/rust 1.77.1: Systems programming language from Mozilla
 games-emulation/cemu 2.0_p20240119: Wii U emulator.
 games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
+games-emulation/suyu 9999: An emulator for Nintendo Switch
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 gui-libs/libdecor 0.2.2: A client-side decorations library for Wayland clients
 gui-wm/gamescope 9999: Efficient micro-compositor for running games
