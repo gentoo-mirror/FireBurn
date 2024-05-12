@@ -1,7 +1,9 @@
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
+dev-java/javatoolkit 0.6.7: Collection of Gentoo-specific tools for Java
 dev-lang/rust 1.77.1: Systems programming language from Mozilla
+dev-libs/libnl 3.9.0 9999: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 games-emulation/cemu 2.0_p20240119: Wii U emulator.
 games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
 games-emulation/suyu 9999: An emulator for Nintendo Switch
@@ -18,6 +20,7 @@ media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management HDR protocol for experimentation
 media-plugins/gst-plugins-vaapi 1.20.5 1.20.6 1.22.11: Hardware accelerated video decoding through VA-API plugin for GStreamer
+net-firewall/ufw 0.36.1 0.36.2: A program used to manage a netfilter firewall
 virtual/rust 1.77.1: Virtual for Rust language compiler
 www-client/chromium 123.0.6312.46: Open-source version of Google Chrome web browser
 www-client/firefox 125.0.3: Firefox Web Browser
