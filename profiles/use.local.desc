@@ -36,32 +36,7 @@ games-emulation/yuzu:discord - Enables Discord Rich Presence
 games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
-gui-wm/gamescope:pipewire - Enable screen capture via PipeWire
-gui-wm/gamescope:wsi-layer - Enable the WSI layer (required for HDR)
-kde-plasma/plasma-desktop:ibus - Use ibus input method via app-i18n/ibus
-kde-plasma/plasma-desktop:kaccounts - Build the OpenDesktop integration plugin
-kde-plasma/plasma-desktop:scim - Enable applets that use app-i18n/scim
-kde-plasma/plasma-desktop:screencast - Enable screencast portal thumbnails using kde-plasma/kpipewire
-kde-plasma/plasma-desktop:sdl - Enable gamepad support using media-libs/libsdl2
-kde-plasma/plasma-meta:browser-integration - Enable integration with Chrome/Firefox with browser extensions
-kde-plasma/plasma-meta:colord - Enable kde-plasma/kwin color management via x11-misc/colord
-kde-plasma/plasma-meta:crash-handler - Pull in kde-plasma/drkonqi for assisted upstream crash reports
-kde-plasma/plasma-meta:crypt - Pull in kde-plasma/plasma-vault for encrypted vaults integration
-kde-plasma/plasma-meta:discover - Pull in resources management GUI; a centralised GHNS alternative and optional sys-apps/fwupd frontend
-kde-plasma/plasma-meta:display-manager - Pull in a graphical display manager
-kde-plasma/plasma-meta:firewall - Pull in kde-plasma/plasma-firewall for system firewall administration
-kde-plasma/plasma-meta:flatpak - Pull in kde-plasma/flatpak-kcm for flatpak permissions administration
-kde-plasma/plasma-meta:grub - Pull in Breeze theme for sys-boot/grub
-kde-plasma/plasma-meta:gtk - Enable Breeze widget style and system settings module for GTK+
-kde-plasma/plasma-meta:kwallet - Enable support for KWallet auto-unlocking via kde-plasma/kwallet-pam
-kde-plasma/plasma-meta:plymouth - Pull in Breeze theme for sys-boot/plymouth
-kde-plasma/plasma-meta:pulseaudio - Install Plasma applet for PulseAudio volume management
-kde-plasma/plasma-meta:sddm - Pull in the x11-misc/sddm display manager and system settings module
-kde-plasma/plasma-meta:sdk - Pull in kde-plasma/plasma-sdk for Plasma development
-kde-plasma/plasma-meta:smart - Pull in kde-plasma/plasma-disks for disk health monitoring
-kde-plasma/plasma-meta:thunderbolt - Pull in kde-plasma/plasma-thunderbolt control center module
-kde-plasma/plasma-meta:wacom - Pull in kde-plasma/wacomtablet control center module
-kde-plasma/plasma-meta:wallpapers - Install wallpapers for the Plasma Workspace
+games-fps/worldofpadman:maps - Install extra maps (PadPack)
 media-libs/gst-plugins-base:X - Enable ximagesink and xvimagesink plugins; build GLX platform support if USE=opengl is enabled; build x11 windowing system support if USE=egl is enabled
 media-libs/gst-plugins-base:gbm - Enable Graphics Buffer Manager based EGL windowing system support (requires egl and at least one of gles or opengl)
 media-libs/gst-plugins-base:gles2 - Enable OpenGL library and plugin via GLESv2 API (requires egl)
@@ -82,28 +57,10 @@ media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
-media-plugins/gst-plugins-vaapi:drm - Enable DRM renderer
-media-plugins/gst-plugins-vaapi:gles2 - Enable GLESv2 and GLESv3 support
 net-firewall/ufw:examples - Example ufw config files
 net-firewall/ufw:ipv6 - IPv6 support for iptables
 virtual/rust:profiler - Build the profiler runtime and rust-demangler tool (needed for '-C profile-generate' or '-C instrument-coverage' codegen opts)
 virtual/rust:rustfmt - Install rustfmt, Rust code formatter
-www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
-www-client/chromium:gtk4 - Build with GTK4 headers.
-www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
-www-client/chromium:headless - Build Ozone only with headless backend, NOT RECOMMENDED for general use.
-www-client/chromium:libcxx - Use bundled libc++ instead of libstdc++ for building.
-www-client/chromium:lto - Build with Link Time Optimizations (via clang's ThinLTO)
-www-client/chromium:official - Enable Official build instead of Developer build.
-www-client/chromium:pax-kernel - Allow building on a PaX-enabled kernel
-www-client/chromium:pgo - Build with Profile Guided Optimizations (2-stage compilation)
-www-client/chromium:proprietary-codecs - Enable codecs for patent-encumbered audio and video formats.
-www-client/chromium:system-harfbuzz - Use system media-libs/harfbuzz instead of the bundled library.
-www-client/chromium:system-icu - Use system dev-libs/icu instead of the bundled one
-www-client/chromium:system-png - Use system media-libs/libpng instead of the bundled library
-www-client/chromium:system-toolchain - Use system toolchain instead of the bundled one (if possible)
-www-client/chromium:system-zstd - Use system app-arch/zstd instead of the bundled one.
-www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
 www-client/firefox:clang - Use Clang compiler instead of GCC
 www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
 www-client/firefox:geckodriver - Enable WebDriver support
