@@ -13,6 +13,7 @@ media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders
 media-libs/gst-plugins-base 1.20.5 1.20.6 1.22.11: Basepack of plugins for gstreamer
 media-libs/libspng 0.7.4: Simple, modern libpng alternative.
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
+media-libs/shaderc 2024.1: Collection of tools, libraries and tests for shader compilation
 media-libs/vkBasalt 0.3.2.9 9999: A Vulkan post processing layer for Linux
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management HDR protocol for experimentation
 net-firewall/ufw 0.36.1 0.36.2: A program used to manage a netfilter firewall
