@@ -23,8 +23,23 @@ dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
 dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
 dev-lang/rust:system-llvm - Use the system LLVM installation
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
+dev-libs/libclc:spirv - Build SPIRV targets
 dev-libs/libnl:python - Install experimental dev-lang/python bindings
 dev-libs/libnl:utils - Install command line interface utils
+dev-qt/qttools:assistant - Build Qt Assistant and the QtHelp module
+dev-qt/qttools:clang - Enable using libclang for code parsing (linguist/qdoc)
+dev-qt/qttools:designer - Build Qt Designer
+dev-qt/qttools:distancefieldgenerator - Build Qt Distance Field Generator
+dev-qt/qttools:linguist - Build Qt Linguist (GUI requires USE=widgets)
+dev-qt/qttools:pixeltool - Build Qt Pixeltool
+dev-qt/qttools:qdbus - Build the Qt D-Bus Interface (D-Bus Viewer requires USE=widgets)
+dev-qt/qttools:qdoc - Build Qt Documentation Generator
+dev-qt/qttools:qml - Build QML/QtQuick bindings and imports
+dev-qt/qttools:qmlls - Build the QtHelp plugin for the QML language server
+dev-qt/qttools:qtattributionsscanner - Build Qt Source Code Attribution Scanner
+dev-qt/qttools:qtdiag - Build Qt Diag
+dev-qt/qttools:qtplugininfo - Build Qt Plugin Info
+dev-qt/qttools:widgets - Enable QtWidgets support
 games-emulation/cemu:cubeb - Enable cubeb audio support
 games-emulation/cemu:discord - Enable rich Discord presence
 games-emulation/cemu:vulkan - Enable Vulkan graphics support
