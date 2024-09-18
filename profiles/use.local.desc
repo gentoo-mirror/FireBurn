@@ -2,7 +2,27 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
+app-office/libreoffice:clang - Use Clang compiler instead of GCC
+app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
+app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
+app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
+app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
+app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
+dev-lang/rust:clippy - Install clippy, Rust code linter
+dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
+dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly, sometimes is broken)
+dev-lang/rust:nightly - Enable nightly (UNSTABLE) features (NOTE: it does not install nightly version, just enables features marked as nightly at time of release)
+dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
+dev-lang/rust:profiler - Build the profiler runtime and rust-demangler tool (needed for '-C profile-generate' or '-C instrument-coverage' codegen opts)
+dev-lang/rust:rust-analyzer - Install rust-analyzer, A Rust compiler front-end for IDEs (language server)
+dev-lang/rust:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
+dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
+dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
+dev-lang/rust:system-llvm - Use the system LLVM installation
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-libs/libnl:python - Install experimental dev-lang/python bindings
 dev-libs/libnl:utils - Install command line interface utils
 games-emulation/cemu:cubeb - Enable cubeb audio support
@@ -47,6 +67,8 @@ media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 net-firewall/ufw:examples - Example ufw config files
 net-firewall/ufw:ipv6 - IPv6 support for iptables
+virtual/rust:profiler - Build the profiler runtime and rust-demangler tool (needed for '-C profile-generate' or '-C instrument-coverage' codegen opts)
+virtual/rust:rustfmt - Install rustfmt, Rust code formatter
 www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:ffmpeg-chromium - (binpkg only) Use Chromium FFmpeg fork (media-video/ffmpeg-chromium) rather than mainline FFmpeg (media-video/ffmpeg)
 www-client/chromium:gtk4 - Build with GTK4 headers.
@@ -62,3 +84,25 @@ www-client/chromium:system-png - Use system media-libs/libpng instead of the bun
 www-client/chromium:system-toolchain - Use system toolchain instead of the bundled one (if possible)
 www-client/chromium:system-zstd - Use system app-arch/zstd instead of the bundled one.
 www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
+www-client/firefox:clang - Use Clang compiler instead of GCC
+www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
+www-client/firefox:geckodriver - Enable WebDriver support
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:gnome-shell - Integrate with gnome-base/gnome-shell search
+www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+www-client/firefox:jumbo-build - Enable unified build - combines source files to speed up build process, but requires more memory
+www-client/firefox:libproxy - Enable libproxy support
+www-client/firefox:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
+www-client/firefox:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
+www-client/firefox:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
+www-client/firefox:sndio - Enable support for the media-sound/sndio backend
+www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
+www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
+www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
+www-client/firefox:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+www-client/firefox:system-python-libs - Use system's python site instead of bundled python libraries
+www-client/firefox:system-webp - Use the system-wide media-libs/libwebp instead of bundled
+www-client/firefox:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
