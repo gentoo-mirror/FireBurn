@@ -1,0 +1,16 @@
+BDEPEND=media-libs/glm app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=app-arch/zarchive app-arch/zstd cubeb? ( media-libs/cubeb ) dev-libs/boost dev-libs/glib dev-libs/hidapi >=dev-libs/libfmt-9.1.0:= dev-libs/libzip dev-libs/openssl dev-libs/pugixml dev-libs/rapidjson dev-libs/wayland media-libs/libglvnd media-libs/libsdl2[haptic,joystick] net-misc/curl sys-libs/zlib vulkan? ( dev-util/vulkan-headers ) x11-libs/gtk+:3[wayland] x11-libs/libX11 x11-libs/wxGTK:3.2-gtk3[opengl] virtual/libusb
+DESCRIPTION=Wii U emulator.
+EAPI=8
+HOMEPAGE=https://cemu.info/ https://github.com/cemu-project/Cemu
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake desktop xdg
+IUSE=+cubeb discord +sdl +vulkan
+KEYWORDS=~amd64
+LICENSE=MPL-2.0 ISC
+RDEPEND=app-arch/zarchive app-arch/zstd cubeb? ( media-libs/cubeb ) dev-libs/boost dev-libs/glib dev-libs/hidapi >=dev-libs/libfmt-9.1.0:= dev-libs/libzip dev-libs/openssl dev-libs/pugixml dev-libs/rapidjson dev-libs/wayland media-libs/libglvnd media-libs/libsdl2[haptic,joystick] net-misc/curl sys-libs/zlib vulkan? ( dev-util/vulkan-headers ) x11-libs/gtk+:3[wayland] x11-libs/libX11 x11-libs/wxGTK:3.2-gtk3[opengl] virtual/libusb
+SLOT=0
+SRC_URI=https://github.com/cemu-project/Cemu/archive/a05bdb172d198904a76b4b166b43fb31a94a0dd3.tar.gz -> cemu-2.0_p20240915.tar.gz https://github.com/ocornut/imgui/archive/refs/tags/v1.88.tar.gz -> cemu-imgui-1.88.tar.gz https://github.com/KhronosGroup/glslang/archive/36d08c0d940cf307a23928299ef52c7970d8cee6.tar.gz -> glslang-36d08c0.tar.gz
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	cmake	10a50dfaf728b802fcfd37f8d0da9056	desktop	56973babb9c5f19cab0eeb53ece644c6	xdg	854eae304447322625df5991e20ed18f
+_md5_=bd877e672322d47c380011e3dacdf8e2

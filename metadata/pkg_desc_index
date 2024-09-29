@@ -9,7 +9,7 @@ dev-libs/libclc 19.1.0: OpenCL C library
 dev-libs/libnl 3.9.0 9999: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-qt/qttools 6.7.2 6.7.3: Qt Tools Collection
 dev-util/spirv-llvm-translator 19.1.0: Bi-directional translator between SPIR-V and LLVM IR
-games-emulation/cemu 2.0_p20240119: Wii U emulator.
+games-emulation/cemu 2.0_p20240915: Wii U emulator.
 games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
 games-emulation/suyu 9999: An emulator for Nintendo Switch
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
