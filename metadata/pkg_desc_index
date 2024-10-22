@@ -1,6 +1,6 @@
 app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
 app-crypt/gcr 3.41.1-r2 4.2.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
-app-office/libreoffice 24.2.6.2: A full office productivity suite
+app-office/libreoffice 24.2.6.2 24.2.7.1: A full office productivity suite
 dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
 dev-embedded/libftdi 1.5-r5: Userspace access to FTDI USB interface chips
 dev-java/javatoolkit 0.6.7: Collection of Gentoo-specific tools for Java
