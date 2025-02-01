@@ -84,18 +84,3 @@ net-firewall/ufw:examples - Example ufw config files
 net-firewall/ufw:ipv6 - IPv6 support for iptables
 virtual/rust:profiler - Build the profiler runtime and rust-demangler tool (needed for '-C profile-generate' or '-C instrument-coverage' codegen opts)
 virtual/rust:rustfmt - Install rustfmt, Rust code formatter
-www-client/chromium:bundled-toolchain - Download and use the upstream binary toolchain(s) to build Chromium
-www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
-www-client/chromium:ffmpeg-chromium - (binpkg only) Use Chromium FFmpeg fork (media-video/ffmpeg-chromium) rather than mainline FFmpeg (media-video/ffmpeg)
-www-client/chromium:gtk4 - Build with GTK4 headers.
-www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
-www-client/chromium:headless - Build Ozone only with headless backend, NOT RECOMMENDED for general use.
-www-client/chromium:official - Enable Official build instead of Developer build.
-www-client/chromium:pax-kernel - Allow building on a PaX-enabled kernel
-www-client/chromium:pgo - Build with Profile Guided Optimizations (2-stage compilation)
-www-client/chromium:proprietary-codecs - Enable codecs for patent-encumbered audio and video formats.
-www-client/chromium:system-harfbuzz - Use system media-libs/harfbuzz instead of the bundled library.
-www-client/chromium:system-icu - Use system dev-libs/icu instead of the bundled one
-www-client/chromium:system-png - Use system media-libs/libpng instead of the bundled library
-www-client/chromium:system-zstd - Use system app-arch/zstd instead of the bundled one.
-www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
