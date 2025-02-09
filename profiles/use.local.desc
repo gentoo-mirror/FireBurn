@@ -2,19 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-emulation/wine-staging:capi - Enable ISDN support using net-libs/libcapi
-app-emulation/wine-staging:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up)
-app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
-app-emulation/wine-staging:gecko - Enable mshtml support using app-emulation/wine-gecko
-app-emulation/wine-staging:mingw - Build PE files using a MinGW toolchain for better compatibility
-app-emulation/wine-staging:mono - Enable .NET support using app-emulation/wine-mono
-app-emulation/wine-staging:netapi - Enable support for configuring remote shares using net-fs/samba
-app-emulation/wine-staging:osmesa - Enable off-screen rendering (OpenGL in bitmaps) support
-app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark)
-app-emulation/wine-staging:perl - Install helpers that require perl (winedump/winemaker)
-app-emulation/wine-staging:samba - Pull in net-fs/samba with winbind for NTLM auth support
-app-emulation/wine-staging:sdl - Enable gamepad support using media-libs/libsdl2
-app-emulation/wine-staging:wow64 - Enable running 32bit applications without 32bit ELF multilib by mapping to 64bit calls (experimental, *may* have worse/unusable OpenGL performance or other issues compared to USE=abi_x86_32, also lacks 16bit support) -- still need dev-util/mingw64-toolchain with abi_x86_32 which itself does not need multilib
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
 app-office/libreoffice:clang - Use Clang compiler instead of GCC
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
