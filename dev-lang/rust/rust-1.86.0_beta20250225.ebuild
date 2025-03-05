@@ -3,7 +3,7 @@
 
 EAPI=8
 
-LLVM_COMPAT=( 19 20 )
+LLVM_COMPAT=( 20 )
 PYTHON_COMPAT=( python3_{10..13} )
 
 RUST_MAX_VER=${PV%%_*}
@@ -14,7 +14,7 @@ elif [[ ${PV} == *beta* ]]; then
 	# While uncommon it is possible for feature changes within `beta` to result
 	# in an older snapshot being unable to build a newer one without modifying the sources.
 	# 'stable' releases should always be able to build a beta snapshot so just use those.
-	RUST_MAX_VER="$(ver_cut 1).$(($(ver_cut 2) - 1)).0"
+	# RUST_MAX_VER="$(ver_cut 1).$(($(ver_cut 2) - 1)).0"
 	RUST_MIN_VER="$(ver_cut 1).$(($(ver_cut 2) - 1)).0"
 else
 	RUST_MIN_VER="$(ver_cut 1).$(($(ver_cut 2) - 1)).0"
