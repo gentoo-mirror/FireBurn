@@ -15,6 +15,7 @@ games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
 games-emulation/suyu 9999: An emulator for Nintendo Switch
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 games-fps/worldofpadman 1.6.2: A cartoon style multiplayer first-person shooter
+media-fonts/liberation-fonts 2.1.5-r1: A Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
 media-gfx/reshade-shaders 9999 20221127: A collection of post-processing shaders written for ReShade
 media-libs/gst-plugins-base 1.20.5 1.20.6 1.22.11: Basepack of plugins for gstreamer
 media-libs/libspng 0.7.4: Simple, modern libpng alternative.
