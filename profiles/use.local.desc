@@ -2,45 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
-app-office/libreoffice:clang - Use Clang compiler instead of GCC
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:gtk3 - Enable support for x11-libs/gtk+:3
-app-office/libreoffice:gtk4 - Enable support for gui-libs/gtk:4
-app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
-dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
-dev-lang/rust:clippy - Install clippy, Rust code linter
-dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
-dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly, sometimes is broken)
-dev-lang/rust:mrustc-bootstrap - Use dev-lang/mrustc to build the bootstrap Rust sysroot from this package's source
-dev-lang/rust:nightly - Enable nightly (UNSTABLE) features (NOTE: it does not install nightly version, just enables features marked as nightly at time of release)
-dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
-dev-lang/rust:rust-analyzer - Install rust-analyzer, A Rust compiler front-end for IDEs (language server)
-dev-lang/rust:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
-dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
-dev-lang/rust:system-llvm - Use the system LLVM installation
-dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
-dev-libs/libclc:spirv - Build SPIRV targets
-dev-libs/libnl:python - Install experimental dev-lang/python bindings
-dev-libs/libnl:utils - Install command line interface utils
-dev-qt/qttools:assistant - Build Qt Assistant and the QtHelp module
-dev-qt/qttools:clang - Enable using libclang for code parsing (linguist/qdoc)
-dev-qt/qttools:designer - Build Qt Designer
-dev-qt/qttools:distancefieldgenerator - Build Qt Distance Field Generator
-dev-qt/qttools:linguist - Build Qt Linguist (GUI requires USE=widgets)
-dev-qt/qttools:pixeltool - Build Qt Pixeltool
-dev-qt/qttools:qdbus - Build the Qt D-Bus Interface (D-Bus Viewer requires USE=widgets)
-dev-qt/qttools:qdoc - Build Qt Documentation Generator
-dev-qt/qttools:qml - Build QML/QtQuick bindings and imports
-dev-qt/qttools:qmlls - Build the QtHelp plugin for the QML language server
-dev-qt/qttools:qtattributionsscanner - Build Qt Source Code Attribution Scanner
-dev-qt/qttools:qtdiag - Build Qt Diag
-dev-qt/qttools:qtplugininfo - Build Qt Plugin Info
-dev-qt/qttools:widgets - Enable QtWidgets support
 games-emulation/cemu:cubeb - Enable cubeb audio support
 games-emulation/cemu:discord - Enable rich Discord presence
 games-emulation/cemu:vulkan - Enable Vulkan graphics support
@@ -90,8 +51,6 @@ media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
 net-firewall/ufw:examples - Example ufw config files
 net-firewall/ufw:ipv6 - IPv6 support for iptables
-virtual/rust:profiler - Build the profiler runtime and rust-demangler tool (needed for '-C profile-generate' or '-C instrument-coverage' codegen opts)
-virtual/rust:rustfmt - Install rustfmt, Rust code formatter
 www-client/firefox:clang - Use Clang compiler instead of GCC
 www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
 www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
