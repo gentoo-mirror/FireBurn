@@ -1,6 +1,6 @@
-app-arch/zarchive 0.1.1_p20220908: Library for creating and reading zstd-compressed file archives (.zar)
-dev-cpp/cpp-jwt 1.5_pre20220727: JSON Web Token library for C++
-games-emulation/cemu 2.0_p20250416: Wii U emulator.
+app-arch/zarchive 0.1.3_p20240721: Library for creating and reading zstd-compressed file archives (.zar)
+dev-cpp/cpp-jwt 1.5: JSON Web Token library for C++
+games-emulation/cemu 2.7_p20250517: Wii U emulator.
 games-emulation/citron 9999: An emulator for Nintendo Switch
 games-emulation/dolphin 5.0_p20231117 9999: Gamecube and Wii game emulator
 games-emulation/suyu 9999: An emulator for Nintendo Switch
