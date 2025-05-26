@@ -28,14 +28,6 @@ games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
 games-fps/worldofpadman:maps - Install extra maps (PadPack)
-media-fonts/liberation-fonts:fontforge - Use media-gfx/fontforge to build fonts from source
-media-libs/gst-plugins-base:X - Enable ximagesink and xvimagesink plugins; build GLX platform support if USE=opengl is enabled; build x11 windowing system support if USE=egl is enabled
-media-libs/gst-plugins-base:gbm - Enable Graphics Buffer Manager based EGL windowing system support (requires egl and at least one of gles or opengl)
-media-libs/gst-plugins-base:gles2 - Enable OpenGL library and plugin via GLESv2 API (requires egl)
-media-libs/gst-plugins-base:ivorbis - Enable integer based vorbis decoder
-media-libs/gst-plugins-base:opengl - Enable OpenGL library and plugin via desktop OpenGL API
-media-libs/gst-plugins-base:pango - Enable pango GStreamer plugin
-media-libs/gst-plugins-base:wayland - Enable Wayland EGL windowing system support (requires egl and at least one of gles2 or opengl)
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:gles1 - Enable GLESv1 support.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
@@ -49,26 +41,3 @@ media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
-net-firewall/ufw:examples - Example ufw config files
-net-firewall/ufw:ipv6 - IPv6 support for iptables
-www-client/firefox:clang - Use Clang compiler instead of GCC
-www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
-www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
-www-client/firefox:gnome-shell - Integrate with gnome-base/gnome-shell search
-www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
-www-client/firefox:jumbo-build - Enable unified build - combines source files to speed up build process, but requires more memory
-www-client/firefox:libproxy - Enable libproxy support
-www-client/firefox:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
-www-client/firefox:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
-www-client/firefox:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
-www-client/firefox:sndio - Enable support for the media-sound/sndio backend
-www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
-www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz instead of bundled and media-gfx/graphite2 in most cases
-www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled
-www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
-www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
-www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
-www-client/firefox:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
-www-client/firefox:system-webp - Use the system-wide media-libs/libwebp instead of bundled
-www-client/firefox:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
-www-client/firefox:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
