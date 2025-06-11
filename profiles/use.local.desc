@@ -11,10 +11,6 @@ games-emulation/citron:discord - Enables Discord Rich Presence
 games-emulation/citron:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/citron:webengine - Use QtWebEngine for web applet implementation
 games-emulation/citron:webservice - Enable web services (telemetry, etc.)
-games-emulation/dolphin:discord-presence - Enables Discord Rich Presence, show the current game on Discord
-games-emulation/dolphin:evdev - Enable evdev input support
-games-emulation/dolphin:log - Increase logging output
-games-emulation/dolphin:mgba - Enables GBA controllers emulation using libmgba.
 games-emulation/suyu:compatibility-list - Downloads the latest compatibility list
 games-emulation/suyu:cubeb - Enables the cubeb audio backend
 games-emulation/suyu:discord - Enables Discord Rich Presence
