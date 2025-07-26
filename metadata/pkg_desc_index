@@ -4,6 +4,7 @@ games-emulation/cemu 2.7_p20250527: Wii U emulator.
 games-emulation/citron 9999: An emulator for Nintendo Switch
 games-emulation/suyu 9999: An emulator for Nintendo Switch
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
+games-fps/q2rtx 9999: NVIDIA's implementation of RTX ray-tracing in Quake II
 games-fps/worldofpadman 1.6.2: A cartoon style multiplayer first-person shooter
 media-gfx/reshade-shaders 9999 20250506: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
