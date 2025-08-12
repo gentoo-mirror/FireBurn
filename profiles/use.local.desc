@@ -25,7 +25,6 @@ games-emulation/yuzu:discord - Enables Discord Rich Presence
 games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
-games-fps/worldofpadman:maps - Install extra maps (PadPack)
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:gles1 - Enable GLESv1 support.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
