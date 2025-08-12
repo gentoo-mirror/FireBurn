@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/vkd3d-proton:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
+app-emulation/vkd3d-proton:extras - Install extra tools and demos in /usr/lib/vkd3d-proton
 games-emulation/cemu:cubeb - Enable cubeb audio support
 games-emulation/cemu:discord - Enable rich Discord presence
 games-emulation/cemu:vulkan - Enable Vulkan graphics support
