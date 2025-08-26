@@ -1,3 +1,5 @@
+acct-group/ollama 0: A group for ollama
+acct-user/ollama 3: A user for ollama
 app-arch/zarchive 0.1.3_p20240721: Library for creating and reading zstd-compressed file archives (.zar)
 app-emulation/vkd3d-proton 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 dev-cpp/cpp-jwt 1.5: JSON Web Token library for C++
@@ -9,3 +11,4 @@ games-fps/q2rtx 9999: NVIDIA's implementation of RTX ray-tracing in Quake II
 media-gfx/reshade-shaders 9999 20250506: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.10 9999: A Vulkan post processing layer for Linux
+sci-ml/ollama 0.11.6 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
