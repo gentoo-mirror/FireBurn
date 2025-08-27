@@ -8,7 +8,7 @@ dev-libs/rocm-comgr 6.4.3: Radeon Open Compute Code Object Manager
 dev-libs/rocm-device-libs 6.4.3: Radeon Open Compute Device Libraries
 dev-libs/rocr-runtime 6.4.3: Radeon Open Compute Runtime
 dev-libs/roct-thunk-interface 6.4.3: Radeon Open Compute Thunk Interface
-dev-qt/qttools 6.9.1 6.9.2 6.9.9999 6.10.9999 6.9999: Qt Tools Collection
+dev-qt/qttools 6.9.2: Qt Tools Collection
 dev-util/Tensile 6.4.3: Stretching GPU performance for GEMMs and tensor contractions
 dev-util/hip 6.4.3: C++ Heterogeneous-Compute Interface for Portability
 dev-util/hipcc 6.4.3: Radeon Open Compute hipcc
