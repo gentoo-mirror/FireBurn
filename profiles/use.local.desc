@@ -4,6 +4,36 @@
 
 app-emulation/vkd3d-proton:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
 app-emulation/vkd3d-proton:extras - Install extra tools and demos in /usr/lib/vkd3d-proton
+dev-lang/rust:clippy - Install clippy, Rust code linter
+dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
+dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly, sometimes is broken)
+dev-lang/rust:mrustc-bootstrap - Use dev-lang/mrustc to build the bootstrap Rust sysroot from this package's source
+dev-lang/rust:nightly - Enable nightly (UNSTABLE) features (NOTE: it does not install nightly version, just enables features marked as nightly at time of release)
+dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
+dev-lang/rust:rust-analyzer - Install rust-analyzer, A Rust compiler front-end for IDEs (language server)
+dev-lang/rust:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
+dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
+dev-lang/rust:system-llvm - Use the system LLVM installation
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
+dev-qt/qttools:assistant - Build Qt Assistant and the QtHelp module
+dev-qt/qttools:clang - Enable using libclang for code parsing (linguist/qdoc)
+dev-qt/qttools:designer - Build Qt Designer
+dev-qt/qttools:distancefieldgenerator - Build Qt Distance Field Generator
+dev-qt/qttools:linguist - Build Qt Linguist (GUI requires USE=widgets)
+dev-qt/qttools:pixeltool - Build Qt Pixeltool
+dev-qt/qttools:qdbus - Build the Qt D-Bus Interface (D-Bus Viewer requires USE=widgets)
+dev-qt/qttools:qdoc - Build Qt Documentation Generator
+dev-qt/qttools:qml - Build QML/QtQuick bindings and imports
+dev-qt/qttools:qmlls - Build the QtHelp plugin for the QML language server
+dev-qt/qttools:qtattributionsscanner - Build Qt Source Code Attribution Scanner
+dev-qt/qttools:qtdiag - Build Qt Diag
+dev-qt/qttools:qtplugininfo - Build Qt Plugin Info
+dev-qt/qttools:widgets - Enable QtWidgets support
+dev-util/Tensile:client - Build and install tensile_client executable to run benchmarks and tune GPU GEMM
+dev-util/hip:hip - Build HIP runtime
+dev-util/hip:opencl - Build OpenCL runtime
+dev-util/hip:video_cards_amdgpu - Build for AMD platform
+dev-util/hip:video_cards_nvidia - Build for Nvidia platform
 games-emulation/cemu:cubeb - Enable cubeb audio support
 games-emulation/cemu:discord - Enable rich Discord presence
 games-emulation/cemu:vulkan - Enable Vulkan graphics support
@@ -13,6 +43,11 @@ games-emulation/citron:discord - Enables Discord Rich Presence
 games-emulation/citron:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/citron:webengine - Use QtWebEngine for web applet implementation
 games-emulation/citron:webservice - Enable web services (telemetry, etc.)
+games-emulation/dolphin:discord-presence - Enables Discord Rich Presence, show the current game on Discord
+games-emulation/dolphin:evdev - Enable evdev input support
+games-emulation/dolphin:llvm - Enables LLVM support, for disassembly
+games-emulation/dolphin:log - Increase logging output
+games-emulation/dolphin:mgba - Enables GBA controllers emulation using libmgba.
 games-emulation/suyu:compatibility-list - Downloads the latest compatibility list
 games-emulation/suyu:cubeb - Enables the cubeb audio backend
 games-emulation/suyu:discord - Enables Discord Rich Presence
@@ -38,6 +73,9 @@ media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
 media-libs/vkBasalt:reshade-shaders - Use Reshade Fx shaders
+sci-libs/rocBLAS:benchmark - Build and install rocblas-bench.
+sci-libs/rocBLAS:hipblaslt - Build with hipBLASLt for some non-batched and strided batched problems on gfx12.
+sci-libs/rocBLAS:test - Perform rocblas-test to compare the result between rocBLAS and system BLAS.
 sci-misc/llama-cpp:blis - Build a BLIS backend
 sci-misc/llama-cpp:hip - Build a HIP (ROCm) backend
 sci-misc/llama-cpp:openblas - Build an OpenBLAS backend
@@ -45,3 +83,42 @@ sci-misc/llama-cpp:opencl - Build an OpenCL backend, so far only works on Adreno
 sci-ml/ollama:cuda - Enable NVIDIA CUDA support
 sci-ml/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 sci-ml/ollama:rocm - Enable ROCm gpu computing support
+www-client/chromium:bundled-toolchain - Download and use the upstream binary toolchain(s) to build Chromium
+www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+www-client/chromium:ffmpeg-chromium - (binpkg only) Use Chromium FFmpeg fork (media-video/ffmpeg-chromium) rather than mainline FFmpeg (media-video/ffmpeg)
+www-client/chromium:gtk4 - Build with GTK4 headers.
+www-client/chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
+www-client/chromium:headless - Build Ozone only with headless backend, NOT RECOMMENDED for general use.
+www-client/chromium:official - Enable Official build instead of Developer build.
+www-client/chromium:pax-kernel - Allow building on a PaX-enabled kernel
+www-client/chromium:pgo - Build with Profile Guided Optimizations (2-stage compilation)
+www-client/chromium:proprietary-codecs - Enable codecs for patent-encumbered audio and video formats.
+www-client/chromium:rar - Enable the Safe Browsing feature to inspect RAR files.
+www-client/chromium:system-harfbuzz - Use system media-libs/harfbuzz instead of the bundled library.
+www-client/chromium:system-icu - Use system dev-libs/icu instead of the bundled one
+www-client/chromium:system-png - Use system media-libs/libpng instead of the bundled library
+www-client/chromium:system-zstd - Use system app-arch/zstd instead of the bundled one.
+www-client/chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
+www-client/firefox:clang - Use Clang compiler instead of GCC
+www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:gnome-shell - Integrate with gnome-base/gnome-shell search
+www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+www-client/firefox:jpegxl - Add JPEG XL image support (EXPERIMENTAL, no official upstream support)
+www-client/firefox:jumbo-build - Enable unified build - combines source files to speed up build process, but requires more memory
+www-client/firefox:libproxy - Enable libproxy support
+www-client/firefox:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
+www-client/firefox:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
+www-client/firefox:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
+www-client/firefox:sndio - Enable support for the media-sound/sndio backend
+www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
+www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz instead of bundled and media-gfx/graphite2 in most cases
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
+www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
+www-client/firefox:system-pipewire - Use system media-video/pipewire for WebRTC and screencast instead of bundled one
+www-client/firefox:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+www-client/firefox:system-webp - Use the system-wide media-libs/libwebp instead of bundled
+www-client/firefox:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
+www-client/firefox:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services

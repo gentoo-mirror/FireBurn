@@ -3,13 +3,28 @@ acct-user/ollama 3: A user for ollama
 app-arch/zarchive 0.1.3_p20240721: Library for creating and reading zstd-compressed file archives (.zar)
 app-emulation/vkd3d-proton 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 dev-cpp/cpp-jwt 1.5: JSON Web Token library for C++
+dev-lang/rust 1.89.0 9999: Systems programming language originally developed by Mozilla
+dev-libs/rocm-comgr 6.4.3: Radeon Open Compute Code Object Manager
+dev-libs/rocm-device-libs 6.4.3: Radeon Open Compute Device Libraries
+dev-libs/rocr-runtime 6.4.3: Radeon Open Compute Runtime
+dev-libs/roct-thunk-interface 6.4.3: Radeon Open Compute Thunk Interface
+dev-qt/qttools 6.9.1 6.9.2 6.9.9999 6.10.9999 6.9999: Qt Tools Collection
+dev-util/Tensile 6.4.3: Stretching GPU performance for GEMMs and tensor contractions
+dev-util/hip 6.4.3: C++ Heterogeneous-Compute Interface for Portability
+dev-util/hipcc 6.4.3: Radeon Open Compute hipcc
+dev-util/hipify-clang 6.4.3: A set of tools to translate CUDA source code into portable HIP C++
+dev-util/spirv-llvm-translator 21.1.0: Bi-directional translator between SPIR-V and LLVM IR
 games-emulation/cemu 2.7_p20250527: Wii U emulator.
 games-emulation/citron 9999: An emulator for Nintendo Switch
+games-emulation/dolphin 2506 9999: Gamecube and Wii game emulator
 games-emulation/suyu 9999: An emulator for Nintendo Switch
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 games-fps/q2rtx 9999: NVIDIA's implementation of RTX ray-tracing in Quake II
 media-gfx/reshade-shaders 9999 20250506: A collection of post-processing shaders written for ReShade
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 media-libs/vkBasalt 0.3.2.10 9999: A Vulkan post processing layer for Linux
+sci-libs/rocBLAS 6.4.3: AMD's library for BLAS on ROCm
 sci-misc/llama-cpp 9999: Port of Facebook's LLaMA model in C/C++
 sci-ml/ollama 0.11.6 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
+www-client/chromium 140.0.7312.0: Open-source version of Google Chrome web browser
+www-client/firefox 142.0: Firefox Web Browser
