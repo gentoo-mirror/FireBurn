@@ -13,6 +13,7 @@ dev-util/Tensile 6.4.3: Stretching GPU performance for GEMMs and tensor contract
 dev-util/hip 6.4.3: C++ Heterogeneous-Compute Interface for Portability
 dev-util/hipcc 6.4.3: Radeon Open Compute hipcc
 dev-util/hipify-clang 6.4.3: A set of tools to translate CUDA source code into portable HIP C++
+dev-util/spirv-headers 1.4.321.0-r1 9999: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-llvm-translator 21.1.0: Bi-directional translator between SPIR-V and LLVM IR
 games-emulation/cemu 2.7_p20250527: Wii U emulator.
 games-emulation/citron 9999: An emulator for Nintendo Switch
