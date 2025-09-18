@@ -19,7 +19,7 @@ dev-util/spirv-llvm-translator 21.1.0: Bi-directional translator between SPIR-V 
 dev-util/spirv-tools 1.4.321.0-r1: Provides an API and commands for processing SPIR-V modules
 games-emulation/cemu 2.7_p20250527: Wii U emulator.
 games-emulation/citron 9999: An emulator for Nintendo Switch
-games-emulation/dolphin 2506 9999: Gamecube and Wii game emulator
+games-emulation/dolphin 2506 2509 9999: Gamecube and Wii game emulator
 games-emulation/suyu 9999: An emulator for Nintendo Switch
 games-emulation/yuzu 9999: An emulator for Nintendo Switch
 games-fps/q2rtx 9999: NVIDIA's implementation of RTX ray-tracing in Quake II
