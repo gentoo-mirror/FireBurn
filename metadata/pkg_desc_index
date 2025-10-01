@@ -29,5 +29,5 @@ media-libs/vkBasalt 0.3.2.10 9999: A Vulkan post processing layer for Linux
 sci-libs/rocBLAS 6.4.3: AMD's library for BLAS on ROCm
 sci-misc/llama-cpp 9999: Port of Facebook's LLaMA model in C/C++
 sci-ml/ollama 0.11.6 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
-www-client/chromium 140.0.7339.207 141.0.7390.37 142.0.7420.2: Open-source version of Google Chrome web browser
+www-client/chromium 141.0.7390.54 142.0.7420.2: Open-source version of Google Chrome web browser
 www-client/firefox 142.0.1 143.0: Firefox Web Browser
