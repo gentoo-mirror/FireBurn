@@ -66,6 +66,14 @@ games-emulation/yuzu:discord - Enables Discord Rich Presence
 games-emulation/yuzu:system-vulkan - Use system dev-util/vulkan-headers
 games-emulation/yuzu:webengine - Use QtWebEngine for web applet implementation
 games-emulation/yuzu:webservice - Enable web services (telemetry, etc.)
+llvm-core/libclc:spirv - Build SPIRV targets
+llvm-core/llvm:binutils-plugin - Build the binutils plugin
+llvm-core/llvm:debuginfod - Install llvm-debuginfod (requires net-misc/curl and dev-cpp/cpp-httplib)
+llvm-core/llvm:doc - Build and install the HTML documentation and regenerate the man pages
+llvm-core/llvm:exegesis - Enable performance counter support for llvm-exegesis tool that can be used to measure host machine instruction characteristics
+llvm-core/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
+llvm-core/llvm:xar - Support dumping LLVM bitcode sections in Mach-O files (uses app-arch/xar)
+llvm-core/llvm:z3 - Enable support for sci-mathematics/z3 constraint solver
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:gles1 - Enable GLESv1 support.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
