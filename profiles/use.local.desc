@@ -10,6 +10,9 @@ app-emulation/dxvk:d3d9 - Enable support for DirectX 9 (d3d9.dll)
 app-emulation/dxvk:dxgi - Enable support for the DirectX Graphics Infrastructure (dxgi.dll)
 app-emulation/vkd3d-proton:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
 app-emulation/vkd3d-proton:extras - Install extra tools and demos in /usr/lib/vkd3d-proton
+app-text/doxygen:clang - support for llvm-core/clang assisted parsing
+app-text/doxygen:dot - allow to create dot graphs using media-gfx/graphviz
+app-text/doxygen:doxysearch - build doxyindexer and doxysearch.cgi
 dev-lang/rust:clippy - Install clippy, Rust code linter
 dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
 dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly, sometimes is broken)
