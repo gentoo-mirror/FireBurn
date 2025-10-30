@@ -10,6 +10,7 @@ dev-libs/rocm-comgr 6.4.3: Radeon Open Compute Code Object Manager
 dev-libs/rocm-device-libs 6.4.3: Radeon Open Compute Device Libraries
 dev-libs/rocr-runtime 6.4.3: Radeon Open Compute Runtime
 dev-libs/roct-thunk-interface 6.4.3: Radeon Open Compute Thunk Interface
+dev-libs/xdna-driver 9999: AMD XDNA user space driver and kernel module
 dev-libs/xrt 9999: Xilinx Runtime (XRT)
 dev-qt/qttools 6.9.2: Qt Tools Collection
 dev-util/Tensile 6.4.3: Stretching GPU performance for GEMMs and tensor contractions
