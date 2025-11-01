@@ -5,7 +5,6 @@ app-emulation/dxvk 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 fo
 app-emulation/vkd3d-proton 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-text/doxygen 1.14.0: Documentation system for most programming languages
 dev-cpp/cpp-jwt 1.5: JSON Web Token library for C++
-dev-lang/rust 1.89.0 1.90.0 1.90.0-r1: Systems programming language originally developed by Mozilla
 dev-libs/rocm-comgr 6.4.3: Radeon Open Compute Code Object Manager
 dev-libs/rocm-device-libs 6.4.3: Radeon Open Compute Device Libraries
 dev-libs/rocr-runtime 6.4.3: Radeon Open Compute Runtime
